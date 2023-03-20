@@ -1,0 +1,31 @@
+/* .hero {
+    background: url('https://media.geeksforgeeks.org/wp-content/uploads/rk.png'); */
+
+
+    /* background-color: transparent;
+    background-image: linear-gradient(290deg, #31BED8 35%, #A1C8F0 100%);
+    opacity: 0.31;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;  */
+
+
+    /* background-image: 
+    url(
+  "https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+    background-size: "cover";
+    height: 100vh;
+    margin-top: -70px;
+    font-size:50px;
+    background-repeat:no-repeat; 
+
+
+}
+ her
+ /*  */
+ .hero {
+    background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/rk.png');
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png");
+ }

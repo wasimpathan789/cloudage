@@ -1,0 +1,107 @@
+.why{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding:  50px 100px;
+}
+.why>h1{
+    line-height: 1.2em;
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+.why>p{
+    /* color: #000000; */
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+}
+.whyCardWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+}
+.whyCard-cloud-age {
+    background-color: #FFFFFF;
+    box-shadow: 0px 64px 200px 0px rgba(0, 0, 0, 0.08);
+    margin: 0px 32px 0px 0px;
+    /* padding: 40px 40px 40px 40px; */
+    border-radius: 16px 16px 16px 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 15px; */
+    width: 100%;
+    padding-left: 5px;
+}
+.whyCard-cloud-age>h1{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+    font-size: 1.7rem;
+    text-align: center;
+
+}
+.cloud-age-lists{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+
+}
+.cloud-age-list{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    /* background-color: purple; */
+    margin: 0;
+    padding: 0;
+}
+.cloud-age-list>span{
+   padding: 0;
+   margin: 0;
+}
+.aaaa:hover{
+    color: red;
+    padding: 0;
+    margin: 0;
+ }
+.cloud-age-list>p{
+    color: #54595F ;
+    padding: 0;
+   margin: 0;
+}
+.cloud-age-list>p:hover{
+    color: #6EC1E4 ;
+}
+
+
+
+
+
+@media screen and (max-width:1240px) {
+    .why{
+        padding: 50px 20px;
+    }
+    .why>h1{
+        font-size: 1.3rem;
+    }
+    .whyCardWrapper {
+         grid-template-columns: repeat(2, 1fr);
+         }
+    
+}
+@media screen and (max-width:720px) {
+    .whyCardWrapper {
+         grid-template-columns: repeat(1, 1fr);
+         /* background-color: blue; */
+         }
+    
+}

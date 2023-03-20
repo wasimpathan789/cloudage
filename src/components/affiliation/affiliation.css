@@ -1,0 +1,30 @@
+.affiliation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.affiliation>h1 {
+    line-height: 1.4em;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+.affiliation .swiper {
+    overflow: visible !important;
+
+}
+.affiliation-slider{
+    width: 20rem;
+}
+.dd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.swiperjs {
+    background-color: red;
+    width: 100%;
+
+}
