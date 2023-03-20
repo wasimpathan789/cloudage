@@ -1,0 +1,92 @@
+.service-hero {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 150px 0px;
+    /* width: 100%; */
+    background-color: red;
+  
+ }
+ .service-hero>h1{
+  /* color: #FFFFFF; */
+  font-size: 2.9rem;
+  /* font-size: 3.5vw; */
+  position: relative;
+  color: #FFFFFF;
+  color: green;
+  font-family: "Alice", Sans-serif;
+  font-size: 45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .overlay{
+  background-image: linear-gradient(290deg, #5623bb 35%, #A1C8F0 100%);
+  opacity: 0.31;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  background-color: transparent;
+    background-image: linear-gradient(290deg, #e16f12 35%, #e7246e 100%);
+    opacity: 0.31;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+ }
+
+ @media (max-width: 1080px) {
+  .service-hero{
+    width: 100%;
+    padding: 30px;
+  }
+  .service-hero>h1{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+   }
+ 
+}
+@media (max-width:680px){
+  .service-hero>h2{
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+  }
+}
+
+
+.service-wrapper {
+    padding: 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* width: 85%; */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (max-width: 1240px) {
+    /* .deliver-cards { grid-template-columns: repeat(2, 1fr); } */
+    .service-wrapper {
+        padding: 100px 40px;
+   
+    }
+  }
+  @media (max-width: 1080px) {
+    .service-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+   
+    }
+  }
+  @media (max-width: 640px) {
+    .service-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+   
+    }
+  }
+

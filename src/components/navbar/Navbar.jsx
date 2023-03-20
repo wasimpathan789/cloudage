@@ -2,13 +2,13 @@ import React from 'react'
 import { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import './Navbar2.css';
-import Logo from '../assets/logo.png'
+import './navbar.css'
+import Logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom';
-import Dropdown from '../components/dropdown/Dropdown';
+import Dropdown from '../dropdown/Dropdown'
 
 
-const Navbar2 = () => {
+const Navbar = () => {
     const [click, setClick] =useState(false);
 
     const clickHandler =()=>{
@@ -22,10 +22,10 @@ const Navbar2 = () => {
       </div>
         
         <ul className={click ? "nav-links" : "nav-links active"}>
-            <li> <Link className="link"> Homesss </Link> </li>
+            <li> <Link to={"/"} className="link"> Home </Link> </li>
             <li> <Link className="link"> About Us </Link> </li>
 
-            <li> <Link className="link"> Services </Link> </li>
+            <li> <Link to={"/service"} className="link"> Services </Link> </li>
           <li> <Link className="link future"> Corporate Training </Link> </li>
 
             <li> <Link className="link"><Dropdown/></Link> </li>
@@ -48,4 +48,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2;
+export default Navbar;

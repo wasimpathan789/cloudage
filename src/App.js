@@ -8,22 +8,29 @@ import Footer from './components/footer/Footer';
 import Deliver from './components/deliver/Deliver';
 import Why from './components/why/Why';
 import Swiper from './swiper/Swiper';
-import Navbar2 from './Navbar2/Navbar2';
+import Navbar from './components/navbar/Navbar';
+import ServicePage from './pages/servicepage/ServicePage';
+import HomePage from './pages/homepage/HomePage';
 function App() {
   return (
    
     <BrowserRouter>
-    <Navbar2/>
+    {/* <Navbar/>
      <Hero/>
      <Why/>
-     <Deliver/>
+     <Deliver/> */}
      {/* <Affiliation/> */}
-     <Work/>
-     <Footer/>
+     {/* <Work/>
+     <Footer/> */}
 
       <Routes>
-        {/* <Route path='/comp1' element = {<Comp1/>}/>
-        <Route path='/comp2' element = {<Comp2/>}/> */}
+        <Route path="/" element = {<HomePage/>}/>
+        <Route path="/about" element = {<ServicePage/>}/>
+        <Route path="/service" element = {<ServicePage/>}/>
+        <Route path="/alumini" element = {<ServicePage/>}/>
+        <Route path="/contact" element = {<ServicePage/>}/>
+
+
 
       </Routes>
 

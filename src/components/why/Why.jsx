@@ -1,7 +1,7 @@
 import WhyCard from "../whyCard/WhyCard";
 import "./why.css";
 import CheckIcon from "@mui/icons-material/Check";
-import { color } from "@mui/system";
+// import { color } from "@mui/system";
 
 const Why = () => {
   return (
