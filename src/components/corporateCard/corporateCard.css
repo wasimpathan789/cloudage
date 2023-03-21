@@ -1,0 +1,33 @@
+.corporate-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 390px; */
+    padding: 30px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+}
+.corporate-card-container>h1{
+    
+font-family: "Verdana", Sans-serif;
+font-size: 18px;
+color: #132c47;
+text-align: center;
+padding: 11px 20px 0px 20px;
+
+}
+.corporate-card-container>p{
+    color: #797c80;
+    text-align: center;
+}
+.card-icon {
+    background-color: #0693e3;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

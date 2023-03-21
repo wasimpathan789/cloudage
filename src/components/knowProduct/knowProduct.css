@@ -1,0 +1,23 @@
+.know-product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.know-product-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+.know-product-bottom{
+    color: red;
+    margin-bottom: 1.6em;
+    text-align: justify;
+color: #000000;
+font-family: "Roboto", Sans-serif;
+font-weight: 400;
+font-size: 0.9rem;
+line-height: 1.6em;
+}

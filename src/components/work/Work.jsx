@@ -1,10 +1,10 @@
 import "./work.css"
-import Accenture from '../../assets/accenture.png'
-import Infosys from '../../assets/infosys.png'
-import Hortonworks from '../../assets/hortonworks.png'
-import Capgemini from '../../assets/capgemini.png'
-import Cognizant from '../../assets/cognizant.png'
-import Schlumburger from '../../assets/schlumburger.png'
+// import Accenture from '../../assets/accenture.png'
+// import Infosys from '../../assets/infosys.png'
+// import Hortonworks from '../../assets/hortonworks.png'
+// import Capgemini from '../../assets/capgemini.png'
+// import Cognizant from '../../assets/cognizant.png'
+// import Schlumburger from '../../assets/schlumburger.png'
 
 
 

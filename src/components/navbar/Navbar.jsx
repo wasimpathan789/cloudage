@@ -23,17 +23,17 @@ const Navbar = () => {
         
         <ul className={click ? "nav-links" : "nav-links active"}>
             <li> <Link to={"/"} className="link"> Home </Link> </li>
-            <li> <Link className="link"> About Us </Link> </li>
+            <li> <Link to={"/about"}  className="link"> About Us </Link> </li>
 
             <li> <Link to={"/service"} className="link"> Services </Link> </li>
-          <li> <Link className="link future"> Corporate Training </Link> </li>
+          <li> <Link to={"/corporate"} className="link future"> Corporate Training </Link> </li>
 
             <li> <Link className="link"><Dropdown/></Link> </li>
 
 
           <li></li>
-          <li> <Link className="link"> Alumini </Link> </li>
-          <li> <Link className="link"> Contact </Link> </li>
+          <li> <Link to={"alumini"} className="link"> Alumini </Link> </li>
+          <li> <Link to={"/contact"} className="link"> Contact </Link> </li>
 
         </ul>
         <div className='hamburger' onClick={clickHandler}>

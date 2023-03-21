@@ -1,0 +1,64 @@
+
+
+
+.cotact-info {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 30px;
+    padding: 50px 100px;
+}
+.contact-info-left {
+    flex: 2;
+    
+}
+.contact-info-headline {
+    color: #54595F;
+font-family: "Verdana", Sans-serif;
+font-size: 25px;
+text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    
+}
+.contact-address,
+.contact-email,
+.contact-phone{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+.contact-info-left>h1,
+.contact-address>h1,
+.contact-phone>h1,
+.contact-email>h1{
+    line-height: 1.25em;
+    color: #6EC1E4;
+    font-size: 1rem;
+}
+
+.contact-address>p,
+.contact-phone>p,
+.contact-email>p{
+    /* margin-bottom: 1.6em; */
+    color: #7A7A7A;
+    font-weight: 500;
+    /* color: #757575; */
+    font-size: 0.9rem;
+
+}
+.barcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1080px) {
+    .cotact-info {
+        padding: 30px 50px 30px 30px;
+    }
+}
+@media screen and (max-width:780px) {
+    .cotact-info {
+        display: flex;
+        flex-direction: column;
+    }
+}

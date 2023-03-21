@@ -11,6 +11,9 @@ import Swiper from './swiper/Swiper';
 import Navbar from './components/navbar/Navbar';
 import ServicePage from './pages/servicepage/ServicePage';
 import HomePage from './pages/homepage/HomePage';
+import CorporatePage from './pages/corporatepage/CorporatePage';
+import AboutPage from './pages/aboutpage/AboutPage';
+import ContactPage from './pages/contactpage/ContactPage';
 function App() {
   return (
    
@@ -25,10 +28,16 @@ function App() {
 
       <Routes>
         <Route path="/" element = {<HomePage/>}/>
-        <Route path="/about" element = {<ServicePage/>}/>
+        <Route path="/about" element = {<AboutPage/>}/>
         <Route path="/service" element = {<ServicePage/>}/>
         <Route path="/alumini" element = {<ServicePage/>}/>
-        <Route path="/contact" element = {<ServicePage/>}/>
+        <Route path="/contact" element = {<ContactPage/>}/>
+        <Route path="/corporate" element = {<CorporatePage/>}/>
+        <Route path="/about" element = {<AboutPage/>}/>
+        <Route path="/alumini" element = {<AboutPage/>}/>
+
+
+
 
 
 
