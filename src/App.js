@@ -15,6 +15,8 @@ import CorporatePage from './pages/corporatepage/CorporatePage';
 import AboutPage from './pages/aboutpage/AboutPage';
 import ContactPage from './pages/contactpage/ContactPage';
 import AluminiPage from './pages/alumunipages/AluminiPage';
+import EdgePage from './pages/edgepage/EdgePage';
+import DataWareHousePage from './pages/datawarehousepage/DataWareHousePage';
 function App() {
   return (
    
@@ -34,6 +36,10 @@ function App() {
         <Route path="/contact" element = {<ContactPage/>}/>
         <Route path="/corporate" element = {<CorporatePage/>}/>
         <Route path="/alumini" element = {<AluminiPage/>}/>
+        <Route path="/edge" element = {<EdgePage/>}/>
+        <Route path="/datawarehouse" element = {<DataWareHousePage/>}/>
+
+
 
 
 

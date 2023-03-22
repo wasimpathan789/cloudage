@@ -1,0 +1,13 @@
+.edge-top-card {
+    background-color: rgb(0,126,198);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edge-top-card>h1{
+    color: #FFFFFF;
+font-family: "Verdana", Sans-serif;
+font-weight: 200;
+font-size: 19px;
+}

@@ -1,0 +1,123 @@
+.edgepage {
+    padding: 30px 100px;
+
+}
+.edge-cloudera,
+.why-cloudera {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 30px 0px;
+    margin-bottom: 60px;
+
+}
+.edge-left,
+.why-cloudera-right {
+    flex: 3;
+}
+.edge-left>h1{
+    font-weight: 500;
+line-height: 58px;
+font-size: 48px;
+font-style: normal;
+text-align: justify;
+text-transform: none;
+white-space: normal;
+letter-spacing: -0.5px;
+}
+.edge-left>p{
+    padding: 30px 0px;
+    font-size: 16px;
+line-height: 28px;
+font-style: normal;
+font-weight: 400;
+color: rgb(95, 99, 104);
+font-family: Roboto, Arial, sans-serif;
+}
+.edge-right,
+.why-cloudera-left {
+    flex: 2;
+}
+.edge-right>video,
+.why-cloudera-left>video{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* key aspects  */
+.edge-key-aspects {
+    display: flex;
+    flex-direction: column;
+}
+.edge-key-aspects>h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: left;
+    white-space: normal;
+    margin-bottom: 20px;
+  
+}
+.edge-key-aspect-contents {
+
+}
+.edge-key-aspect-contents>h1{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+font-weight: 400;
+line-height: 1.2222em;
+font-size: 1.4em;
+font-style: normal;
+text-transform: none;
+font-weight: 700;
+}
+.edge-key-aspect-contents>p{
+    margin-bottom: 15px;
+-webkit-tap-highlight-color: transparent;
+zoom: 1;
+font-size: 16px;
+line-height: 28px;
+font-style: normal;
+font-weight: 400;
+color: #5f6368;
+font-family: Roboto, Arial, sans-serif;
+    
+}
+
+
+@media screen and (max-width:1080px) {
+    .edgepage{
+        padding: 20px;
+    }
+    .edge-key-aspects>h1 {
+        font-size: 2.3rem;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .edge-cloudera,
+    .why-cloudera{
+        flex-direction: column;
+    }
+    .edge-left>h1,
+    .why-cloudera-right>h1{
+       font-size: 2rem;
+       color: red;
+    }
+    .edge-left>p,
+    .why-cloudera-right>p{
+        font-size: 0.9rem;
+     }
+     .edge-key-aspects>h1 {
+        font-size: 2rem;
+    }
+    .edge-key-aspect-contents>h1{
+        font-size: 1.2rem;
+    }
+    .edge-key-aspect-contents>p{
+        font-size: 1rem;
+    }
+    
+}

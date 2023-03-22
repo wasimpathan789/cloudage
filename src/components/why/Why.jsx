@@ -16,19 +16,21 @@ const Why = () => {
 
       <div className="whyCardWrapper">
         <WhyCard
+        url={"/edge"}
           title={"Edge"}
           description={
             "Ingest, curate, and analyse real-time streaming data with Cloudera DataFlow (CDF)"
           }
         />
         <WhyCard
+        url={"/datawarehouse"}
           title={"Data Warehouse"}
           description={
             "Bring together data from new and diverse sources with Cloudera Data Warehouse."
           }
         />
         <WhyCard
-        abc={"/contact"}
+        url={"/contact"}
           title={"Need Help?"}
           description={"Please fill in your detail will get back to you soon"}
         />
