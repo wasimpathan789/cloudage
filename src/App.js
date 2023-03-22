@@ -14,6 +14,7 @@ import HomePage from './pages/homepage/HomePage';
 import CorporatePage from './pages/corporatepage/CorporatePage';
 import AboutPage from './pages/aboutpage/AboutPage';
 import ContactPage from './pages/contactpage/ContactPage';
+import AluminiPage from './pages/alumunipages/AluminiPage';
 function App() {
   return (
    
@@ -30,11 +31,9 @@ function App() {
         <Route path="/" element = {<HomePage/>}/>
         <Route path="/about" element = {<AboutPage/>}/>
         <Route path="/service" element = {<ServicePage/>}/>
-        <Route path="/alumini" element = {<ServicePage/>}/>
         <Route path="/contact" element = {<ContactPage/>}/>
         <Route path="/corporate" element = {<CorporatePage/>}/>
-        <Route path="/about" element = {<AboutPage/>}/>
-        <Route path="/alumini" element = {<AboutPage/>}/>
+        <Route path="/alumini" element = {<AluminiPage/>}/>
 
 
 

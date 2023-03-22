@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-top-center">
-          <h1>Corporate Trainings</h1>
+          <h1 >Corporate Trainings</h1>
           {/* <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='black' stroke='none'%3E%3Cpolygon points='9.4,2 24,2 14.6,21.6 0,21.6'/%3E%3C/svg%3E" alt="" /> */}
           <div className="dash">
             <span></span>
@@ -39,28 +39,28 @@ const Footer = () => {
             <span></span>
           </div>
           <ul className="corporate-links">
-            <li className="corporate-link">
+            <li data-aos="slide-down" data-aos-delay= "100" data-aos-deration ="1000" className="corporate-link">
               <ArrowForwardIosIcon
                 className="corpoate-arrow-icon"
                 style={{ fontSize: "20", color: "#6EC1E4" }}
               />{" "}
               <a href="">Big data speciallization</a>
             </li>
-            <li className="corporate-link">
+            <li data-aos="slide-down" data-aos-delay= "100" data-aos-deration ="1000" className="corporate-link">
               <ArrowForwardIosIcon
                 className="corpoate-arrow-icon"
                 style={{ fontSize: "20", color: "#6EC1E4" }}
               />
               <a href="">Machine learning on Multicloud</a>
             </li>
-            <li className="corporate-link">
+            <li data-aos="slide-down" data-aos-delay= "100" data-aos-deration ="1000" className="corporate-link">
               <ArrowForwardIosIcon
                 className="corpoate-arrow-icon"
                 style={{ fontSize: "20", color: "#6EC1E4" }}
               />
               <a href="">All data on Kubernets</a>
             </li>
-            <li className="corporate-link">
+            <li data-aos="slide-down" data-aos-delay= "100" data-aos-deration ="1000" className="corporate-link">
               <ArrowForwardIosIcon
                 className="corpoate-arrow-icon"
                 style={{ fontSize: "20", color: "#6EC1E4" }}

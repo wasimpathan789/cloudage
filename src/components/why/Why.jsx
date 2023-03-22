@@ -28,6 +28,7 @@ const Why = () => {
           }
         />
         <WhyCard
+        abc={"/contact"}
           title={"Need Help?"}
           description={"Please fill in your detail will get back to you soon"}
         />

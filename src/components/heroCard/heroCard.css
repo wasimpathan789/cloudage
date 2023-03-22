@@ -12,12 +12,14 @@
     /* background-color: rgb(6, 200, 238); */
     /* background: linear-gradient(290deg, #07859D 40%, #A1C8F0 100%); */
     opacity: 0.8;
+    /* position: absolute; */
+    background-color: red;
 }
 
 .hero-card>h1{
     color: #FFFFFF;
     font-family: "Alice", Sans-serif;
-    font-size: 51px;
+    font-size: 45px;
 }
 .hero-card>p{
     color: #07075F;

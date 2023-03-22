@@ -26,7 +26,7 @@ const ContactPage = () => {
           description={`Accelerating enterprise-class data management innovation. At CloudAge, we believe that data can make what is impossible today, possible tomorrow.`}
         />
 
-        <div className="cotact-info">
+        <div  className="cotact-info">
           <div className="footer-top-right contact-info-left">
             <h2 className="contact-info-headline">Contact info</h2>
             <div className="dash">
@@ -36,18 +36,18 @@ const ContactPage = () => {
               <span></span>
               <span></span>
             </div>
-            <div className="contact-address">
+            <div data-aos="slide-right" data-aos-delay= "100" data-aos-deration ="1000" className="contact-address">
               <h1>Address</h1>
               <p>
                 Clover Hills Plaza, 9th Floor NIBM Undri Road, Mohammad Wadi,
                 Kondhwa, Pune, Maharashtra-411048
               </p>
             </div>
-            <div className="contact-phone">
+            <div data-aos="slide-right" data-aos-delay= "100" data-aos-deration ="1000" className="contact-phone">
               <h1>Phone</h1>
               <p>+91-976-406-3368</p>
             </div>
-            <div className="contact-email">
+            <div data-aos="slide-right" data-aos-delay= "100" data-aos-deration ="1000" className="contact-email">
               <h1>Email</h1>
               <p>info@cloudage.co.in</p>
             </div>

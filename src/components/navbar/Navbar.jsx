@@ -20,6 +20,12 @@ const Navbar = () => {
         <div className="logo">
         <img src={Logo} alt="" />
       </div>
+      <div className='hamburger' onClick={clickHandler}>
+            {
+                click ? <CloseIcon/> : <MenuIcon/>
+            }
+
+        </div>
         
         <ul className={click ? "nav-links" : "nav-links active"}>
             <li> <Link to={"/"} className="link"> Home </Link> </li>
@@ -32,16 +38,16 @@ const Navbar = () => {
 
 
           <li></li>
-          <li> <Link to={"alumini"} className="link"> Alumini </Link> </li>
+          <li> <Link to={"/alumini"} className="link"> Alumini </Link> </li>
           <li> <Link to={"/contact"} className="link"> Contact </Link> </li>
 
         </ul>
-        <div className='hamburger' onClick={clickHandler}>
+        {/* <div className='hamburger' onClick={clickHandler}>
             {
                 click ? <CloseIcon/> : <MenuIcon/>
             }
 
-        </div>
+        </div> */}
         
       
     </div>

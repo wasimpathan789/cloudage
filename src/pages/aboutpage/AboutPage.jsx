@@ -119,7 +119,7 @@ const AboutPage = () => {
             foundations for your business analytics solutions so you can unlock
             the value of your data and deliver insights faster.{" "}
           </p>
-          <div className="approch-video">
+          <div  className="approch-video" data-aos="" data-aos-delay= "100" data-aos-deration ="1000">
             {/* <video width="80%" height="0vh" controls> */}
             <video controls>
 
