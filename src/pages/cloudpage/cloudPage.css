@@ -1,0 +1,155 @@
+.cloud-page-wrapper {
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.cloud-computing {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cloud-page-wrapper > h1,
+.cloud-agricutlture > h1,
+.aws-development > h1,
+.gcp-development > h1,
+.azure-development > h1 {
+  zoom: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 58px;
+  font-size: 48px;
+  font-style: normal;
+  text-transform: none;
+  white-space: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cloud-computing-left,
+.aws-development-left,
+.azure-develpment-left {
+  flex: 1.5;
+}
+.cloud-computing-left > p,
+.cloud-agriculture-rigth > p,
+.aws-development-left > p,
+.gcp-development-right > p .azure-develpment-left > p {
+  margin-bottom: 15px;
+  -webkit-tap-highlight-color: transparent;
+  zoom: 1;
+  font-size: 16px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
+  color: #5f6368;
+  font-family: Roboto, Arial, sans-serif;
+}
+.cloud-computing-right,
+.aws-development-right,
+.azure-develpment-right {
+  flex: 1.2;
+}
+.cloud-computing-right > video {
+  width: 100%;
+}
+
+/* cloud-agricutlture */
+
+.cloud-agricutlture {
+}
+.cloud-agricutlture > h1 {
+}
+.cloud-agriculture-wrapper,
+.aws-development-wrapper,
+.aws-development-wrapper,
+.gcp-development-wrapper,
+.azure-development-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.cloud-agriculture-left,
+.gcp-development-left {
+  flex: 1;
+}
+.cloud-agriculture-left > img,
+.gcp-development-left > img {
+  width: 100%;
+}
+.cloud-agriculture-rigth,
+.gcp-development-right {
+  flex: 1.2;
+}
+.cloud-agriculture-rigth > h1 {
+  margin-bottom: 15px;
+  -webkit-tap-highlight-color: transparent;
+  zoom: 1;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.2222em;
+  font-size: 1.4em;
+  font-style: normal;
+  text-transform: none;
+  color: #4b4f58;
+}
+.aws-development > h1,
+.azure-development>h1 {
+  text-align: left;
+}
+.gcp-development > h1{
+    text-align: right;
+}
+.aws-development-right > img,
+.azure-develpment-right > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+  .cloud-page-wrapper {
+    padding: 30px;
+  }
+  .edge-key-aspects > h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .cloud-page-wrapper {
+    padding: 30px 30px 0px 30px;
+  }
+
+  .cloud-computing,
+  .cloud-agriculture-wrapper,
+  .aws-development-wrapper,
+  .aws-development-wrapper,
+  .gcp-development-wrapper,
+  .azure-development-wrapper {
+    flex-direction: column;
+  }
+  .cloud-page-wrapper > h1,
+.cloud-agricutlture > h1,
+.aws-development > h1,
+.gcp-development > h1,
+.azure-development > h1 {
+  font-size: 2.3rem;
+  text-align: left;
+  margin-bottom: 0px;
+
+}
+}
+@media screen and (max-width: 480px) {
+    .cloud-page-wrapper > h1,
+.cloud-agricutlture > h1,
+.aws-development > h1,
+.gcp-development > h1,
+.azure-development > h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.gcp-development>h1
+{
+    margin:30px 0px 30px 0px;
+}
+  }

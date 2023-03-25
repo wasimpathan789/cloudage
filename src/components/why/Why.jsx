@@ -35,6 +35,8 @@ const Why = () => {
           description={"Please fill in your detail will get back to you soon"}
         />
         <WhyCard
+        url={"/ai"}
+
           title={"AI"}
           description={
             "Build, deploy, ML and AI apps, anywhere, with CloudAge machine learning offerings"
@@ -42,6 +44,7 @@ const Why = () => {
         />
         <WhyCard
           title={"Cloud"}
+          url={"/cloud"}
           description={
             "With the cloud, you can easily deploy your application in multiple physical locations around the world."
           }

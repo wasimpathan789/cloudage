@@ -17,6 +17,9 @@ import ContactPage from './pages/contactpage/ContactPage';
 import AluminiPage from './pages/alumunipages/AluminiPage';
 import EdgePage from './pages/edgepage/EdgePage';
 import DataWareHousePage from './pages/datawarehousepage/DataWareHousePage';
+import AiPage from './pages/AIpage/AiPage';
+import AzureMicrosoftPage from './pages/futuristicPages/azureMicrosoftPage/AzureMicrosoftPage';
+import CloudPage from './pages/cloudpage/CloudPage';
 function App() {
   return (
    
@@ -38,6 +41,12 @@ function App() {
         <Route path="/alumini" element = {<AluminiPage/>}/>
         <Route path="/edge" element = {<EdgePage/>}/>
         <Route path="/datawarehouse" element = {<DataWareHousePage/>}/>
+        <Route path="/ai" element = {<AiPage/>}/>
+        <Route path="/cloud" element = {<CloudPage/>}/>
+
+        <Route path="/azuremicrosoft" element = {<AzureMicrosoftPage/>}/>
+
+
 
 
 

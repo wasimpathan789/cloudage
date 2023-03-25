@@ -26,35 +26,30 @@ const DataWareHousePage = () => {
       />
       <div className="data-ware-house">
         <div className="data-ware-house-top">
-        <h1>Data Warehouse</h1>
-        <div className="data-ware-house-child">
-       
-        <div className="data-ware-house-top-left">
-         
-         <p>
-           Data warehousing is the process of constructing and using a data
-           warehouse. A data warehouse is constructed by integrating data
-           from multiple heterogeneous sources that support analytical
-           reporting, structured and/or ad hoc queries, and decision making.
-           <br />
-           A data warehouse is a type of data management system that is
-           designed to enable and support business intelligence (BI)
-           activities, especially analytics. Data warehouses are solely
-           intended to perform queries and analysis and often contain large
-           amounts of historical data. <br /> A Data Warehouse works as a
-           central repository where information arrives from one or more data
-           sources. Data flows into a data warehouse from the transactional
-           system and other relational databases
-         </p>
-       </div>
-       <div className=" data-ware-house-top-right">
-            <img src={Modern} alt="" />
-          </div>
+          <h1>Data Warehouse</h1>
+          <div className="data-ware-house-child">
+            <div className="data-ware-house-top-left">
+              <p>
+                Data warehousing is the process of constructing and using a data
+                warehouse. A data warehouse is constructed by integrating data
+                from multiple heterogeneous sources that support analytical
+                reporting, structured and/or ad hoc queries, and decision
+                making.
+                <br />
+                A data warehouse is a type of data management system that is
+                designed to enable and support business intelligence (BI)
+                activities, especially analytics. Data warehouses are solely
+                intended to perform queries and analysis and often contain large
+                amounts of historical data. <br /> A Data Warehouse works as a
+                central repository where information arrives from one or more
+                data sources. Data flows into a data warehouse from the
+                transactional system and other relational databases
+              </p>
             </div>
-
-
-         
-         
+            <div className=" data-ware-house-top-right">
+              <img src={Modern} alt="" />
+            </div>
+          </div>
         </div>
         <div className="data-ware-house-center">
           <h1>Data Warehouse Infrastructure</h1>
@@ -64,7 +59,6 @@ const DataWareHousePage = () => {
               <img src={DataWareHouse} alt="" />
             </div>
             <div className="data-ware-house-center-right">
-              
               <p>
                 The virtual data architecture of a warehouse is physically
                 managed atop one or more data platforms, including traditional
@@ -84,58 +78,53 @@ const DataWareHousePage = () => {
           </div>
         </div>
         <div className="data-ware-house-bottom">
-        <h1>Application of Data Warehouse</h1>
+          <h1>Application of Data Warehouse</h1>
 
-        <div className="data-ware-house-child">
-        <div className="data-ware-house-bottom-left">
-            <img src={Other} alt="" />
+          <div className="data-ware-house-child">
+            <div className="data-ware-house-bottom-left">
+              <img src={Other} alt="" />
+            </div>
+            <div className="data-ware-house-bottom-right">
+              <div className="data-ware-house-bottom-contents">
+                <h2>Healthcare</h2>
+                <p>
+                  One of the most important sector which utilizes data
+                  warehouses is the Healthcare sector.
+                </p>
+              </div>
+              <div className="data-ware-house-bottom-contents">
+                <h2>Hospitality Industry</h2>
+                <p>
+                  A major proportion of this industry is dominated by hotel and
+                  restaurant services, car rental services, and holiday home
+                  services.
+                </p>
+              </div>
+              <div className="data-ware-house-bottom-contents">
+                <h2>Insurance</h2>
+                <p>
+                  The design of tailor-made customer offers and promotions is
+                  also possible through warehouses.
+                </p>
+              </div>
+              <div className="data-ware-house-bottom-contents">
+                <h2>The Retailers</h2>
+                <p>
+                  Retailers serve as middlemen between producers and consumers.
+                  They need to maintain records of both parties to ensure their
+                  existence in the market.
+                </p>
+              </div>
+              <div className="data-ware-house-bottom-contents">
+                <h2>Services Sector</h2>
+                <p>
+                  Data warehouses find themselves to be of use in the service
+                  sector for maintenance of financial records, revenue patterns,
+                  customer profiling, resource management, and human resources.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="data-ware-house-bottom-right">
-           
-           <div className="data-ware-house-bottom-contents">
-             <h2>Healthcare</h2>
-             <p>
-               One of the most important sector which utilizes data warehouses
-               is the Healthcare sector.
-             </p>
-           </div>
-           <div className="data-ware-house-bottom-contents">
-             <h2>Hospitality Industry</h2>
-             <p>
-               A major proportion of this industry is dominated by hotel and
-               restaurant services, car rental services, and holiday home
-               services.
-             </p>
-           </div>
-           <div className="data-ware-house-bottom-contents">
-             <h2>Insurance</h2>
-             <p>
-               The design of tailor-made customer offers and promotions is also
-               possible through warehouses.
-             </p>
-           </div>
-           <div className="data-ware-house-bottom-contents">
-             <h2>The Retailers</h2>
-             <p>
-               Retailers serve as middlemen between producers and consumers.
-               They need to maintain records of both parties to ensure their
-               existence in the market.
-             </p>
-           </div>
-           <div className="data-ware-house-bottom-contents">
-             <h2>Services Sector</h2>
-             <p>
-               Data warehouses find themselves to be of use in the service
-               sector for maintenance of financial records, revenue patterns,
-               customer profiling, resource management, and human resources.
-             </p>
-           </div>
-         </div>
-
-
-        </div>
-         
-        
         </div>
       </div>
 

@@ -1,7 +1,8 @@
 import"./dropdown.css"
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,} from "react-router-dom";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import AiPage from "../../pages/AIpage/AiPage";
 
 const Dropdown = () => {
     const [open, setOpen] = useState(false);
@@ -61,7 +62,8 @@ const Dropdown = () => {
         <Link className="future-link">AWS Amazon</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link"> Azure (Microsoft)</Link>
+        {/* <Route path="/ai" element = {<AiPage/>}/> */}
+        <Link to={"/azuremicrosoft"} className="future-link"> Azure (Microsoft)</Link>
         </li>
         <li className="menu-item">
         <Link className="future-link"> GCP (Google)</Link>

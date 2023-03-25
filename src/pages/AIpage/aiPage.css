@@ -1,0 +1,99 @@
+.ai-page {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+}
+.ai-page-top,
+.ai-page-center {
+    display: flex;
+    gap: 30px;
+}
+.ai-page-top-left{
+    flex: 1.5;
+    margin-top: -30px;
+    width: 100%;
+}
+.ai-page-top-left>h1,
+.ai-page-center-right>h1{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-weight: 100;
+    font-size: 39px;
+
+}
+.ai-page-top-left>p,
+.ai-page-center-right>p{
+    font-weight: 400;
+    text-align: justify;
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    margin-top: 60px;
+    font-size: 1rem;
+
+}
+.ai-page-top-right {
+    flex: 1.2;
+}
+.ai-page-top-right>video{
+    width: 100%;
+}
+.ai-page-center-right{
+    flex: 1.4;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.ai-page-center-left>img{
+    width: 100%;
+    height: 100%;
+}
+.ai-page-center-left{
+    flex: 1;
+}
+
+
+.ai-page-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.ai-page-bottom-left>h1{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-size: 43px;
+    font-weight: normal;
+
+}
+
+
+@media screen and (max-width:1080px) {
+    .ai-page{
+        padding:60px 30px;
+    }
+    
+}
+
+@media screen and (max-width:780px) {
+    .ai-page{
+        padding-bottom: 0;
+    }
+    .ai-page-top,
+.ai-page-center {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ai-page-top-left>h1,
+.ai-page-center-right>h1,
+.ai-page-bottom-left>h1 {
+        font-size: 2.3rem;
+    }
+    .ai-page-bottom-right{
+        background-color: purple;
+    }
+    .ai-page-bottom-right>img{
+        width: 100%;
+    }
+    
+}
