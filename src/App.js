@@ -20,6 +20,8 @@ import DataWareHousePage from './pages/datawarehousepage/DataWareHousePage';
 import AiPage from './pages/AIpage/AiPage';
 import AzureMicrosoftPage from './pages/futuristicPages/azureMicrosoftPage/AzureMicrosoftPage';
 import CloudPage from './pages/cloudpage/CloudPage';
+import DatabricksPage from './pages/futuristicPages/databricks/DatabricksPage';
+import AwsMlPage from './pages/futuristicPages/awsMlPage/AwsMlPage';
 function App() {
   return (
    
@@ -45,6 +47,13 @@ function App() {
         <Route path="/cloud" element = {<CloudPage/>}/>
 
         <Route path="/azuremicrosoft" element = {<AzureMicrosoftPage/>}/>
+        <Route path="/databricks" element = {<DatabricksPage/>}/>
+        <Route path="/awsml" element = {<AwsMlPage/>}/>
+
+
+
+
+
 
 
 

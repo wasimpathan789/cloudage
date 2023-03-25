@@ -26,22 +26,22 @@ const Dropdown = () => {
     {open ? (
       <ul className="menu">
         <li className="menu-item">
-        <Link className="future-link">AWS ML</Link>
+        < Link to={"/awsml"}  className="future-link">AWS ML</Link>
         </li>
         <li className="menu-item">
         <Link className="future-link"> GCP ML</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link"> Hadoop as a service</Link>
+        <Link to={"/hadoop"} className="future-link"> Hadoop as a service</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">EMR</Link>
+        <Link to={"emr"} className="future-link">EMR</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link"> HDInsight</Link>
+        <Link to={"hdinsight"} className="future-link"> HDInsight</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">BigQuery</Link>
+        <Link to={"bigquery"} className="future-link">BigQuery</Link>
         </li>
         <li className="menu-item">
         <Link className="future-link">Data as a service</Link>
@@ -56,7 +56,7 @@ const Dropdown = () => {
         <Link className="future-link">ARtificial Intelligence</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">Data Bricks</Link>
+        <Link to={"/databricks"} className="future-link">Data Bricks</Link>
         </li>
         <li className="menu-item">
         <Link className="future-link">AWS Amazon</Link>
