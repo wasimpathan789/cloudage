@@ -11,6 +11,8 @@ import Adzaiper from "../../../assets/aws-ml/adzaiper.jpg";
 import lamba from "../../../assets/aws-ml/amzo.png";
 import amazonai from "../../../assets/aws-ml/amazonai.png";
 import aw1 from "../../../assets/aws-ml/aw1.png";
+import deep from "../../../assets/aws-ml/deeplense.png";
+import silverstone from "../../../assets/aws-ml/silverstone.png";
 
 import logo from "../../../assets/aws-ml/aws-logo.png";
 
@@ -111,6 +113,71 @@ const AwsMlPage = () => {
           developer, AWS offers machine learning services and tools tailored to
           meet your needs and level of expertise.
         </p>
+      </div>
+      <div className="get-deep">
+        <h1>Get deep with Machine Learning</h1>
+        <div className="get-deep-wrapper">
+        <div className="get-deep-left">
+          <span>AWS DeepRacer</span>
+          <p>
+            Accelerating enterprise-class data management innovation At
+            CloudAge, we believe that data can make what is impossible today,
+            possible tomorrow. We empower people to transform complex data into
+            clear and actionable insights. AWS DeepRacer is a fully autonomous
+            1/18th-scale race car designed to help you learn about reinforcement
+            learning through autonomous driving.
+            <ul>
+              <li>
+                Experience the thrill of the race in the real world when you
+                deploy your RL model onto AWS DeepRacer.
+              </li>
+              <li>
+                Protect your assets using built-in controls for identity, data
+                and network access, including custom roles.
+              </li>
+              <li>
+                Starting in 2019, compete in the world’s first global autonomous
+                racing league, to race for prizes and a chance to advance to win
+                the coveted AWS DeepRacer Cup.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="get-deep-right">
+          <img src={silverstone} alt="" />
+        </div>
+
+
+        </div>
+       
+      
+      </div>
+
+      <div className="aws-deep-lense">
+        <div className="aws-deep-lense-left">
+          <img src={deep} alt="" />
+        </div>
+        <div className="aws-deep-lense-right">
+          <span>AWS DeepLens</span>
+          <p>
+            AWS DeepLens is the world’s first Deep Learning-enabled video camera
+            for developers. Integrated with Amazon SageMaker and many other AWS
+            services, it allows you to get started with deep learning in less
+            than 10 minutes through sample projects with practical, hands-on
+            examples.
+            <ul>
+              <li>
+                Choose your deep learning model from the AWS DeepLens
+                pre-trained model library, or your own models trained with
+                Amazon SageMaker.
+              </li>
+              <li>Deploy your model to the device with a single click.</li>
+              <li>
+                Watch the results in real time in the AWS Management Console.
+              </li>
+            </ul>
+          </p>
+        </div>
       </div>
       <Work
         image1={Harmon}
