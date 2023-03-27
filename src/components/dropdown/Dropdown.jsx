@@ -29,7 +29,10 @@ const Dropdown = () => {
         < Link to={"/awsml"}  className="future-link">AWS ML</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link"> GCP ML</Link>
+        < Link to={"/azureml"}  className="future-link">Azure ML</Link>
+        </li>
+        <li className="menu-item">
+        <Link to={"/gcpml"} className="future-link"> GCP ML</Link>
         </li>
         <li className="menu-item">
         <Link to={"/hadoop"} className="future-link"> Hadoop as a service</Link>

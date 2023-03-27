@@ -1,0 +1,152 @@
+.gcp-ml-wrapper{
+    padding: 30px 100px;
+}
+.gcp-take-your{
+    display: flex;
+    gap: 30px;
+}
+.gcp-take-your-left,
+.gcp-take-your-right{
+    flex: 1.5;
+}
+.gcp-take-your-left>h1{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-size: 29px;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+.gcp-take-your-left>p{
+    text-align: justify;
+    color: #7A7A7A;
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+/* .gcp-take-your-right{
+    width: 100%;
+} */
+.gcp-take-your-right>img{
+    /* border: 1px solid red; */
+    width: 100%;
+    background-size: cover;
+}
+.gcp-cloude-img>img,
+.machine-development>img,
+.gcp-we-empower-right>img,
+.gcp-more-ai-top>img{
+    width: 100%;
+    background-size: cover;
+
+}
+.gcp-cloude-img>p{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+
+.gcp-mathias>h1{
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.25em;
+    font-weight: 600;
+    color: #33cccc;
+    margin-top: 50px;
+}
+.gcp-mathias>p{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-weight: 700;
+}
+.gcp-we-empower{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.gcp-we-empower-left{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+.gcp-we-empower-right{
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+}
+.gcp-we-empower-right>h1,
+.gcp-we-empower-left>h1{
+    color: #1C9372;
+    font-family: "Verdana", Sans-serif;
+    font-size: 19px;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+.gcp-we-empower-left>p{
+    color: #5f6368;
+    font-family: proxima-nova, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+/* gcp-more-ai  */
+.gcp-more-ai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.gcp-more-ai-top>h1{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-size: 29px;
+
+}
+.gcp-more-ai-top>p{
+    font-size: 18px;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #4B4F58;
+
+}
+
+
+
+@media screen and (max-width:1080px) {
+    .gcp-ml-wrapper{
+        padding: 30px;
+    }
+   
+    
+}
+@media screen and (max-width:780px) {
+    
+    .gcp-take-your{
+       flex-direction: column;
+    }
+    .gcp-we-empower{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .gcp-take-your-left>h1,
+    .gcp-more-ai-top>h1{
+       font-size: 1.3rem;
+    }
+    .gcp-take-your-left>p,
+    .gcp-more-ai-top>p{
+        font-size: 0.95rem;
+    }
+    
+}

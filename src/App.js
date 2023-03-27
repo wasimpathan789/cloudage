@@ -7,7 +7,6 @@ import Work from './components/work/Work';
 import Footer from './components/footer/Footer';
 import Deliver from './components/deliver/Deliver';
 import Why from './components/why/Why';
-import Swiper from './swiper/Swiper';
 import Navbar from './components/navbar/Navbar';
 import ServicePage from './pages/servicepage/ServicePage';
 import HomePage from './pages/homepage/HomePage';
@@ -22,6 +21,8 @@ import AzureMicrosoftPage from './pages/futuristicPages/azureMicrosoftPage/Azure
 import CloudPage from './pages/cloudpage/CloudPage';
 import DatabricksPage from './pages/futuristicPages/databricks/DatabricksPage';
 import AwsMlPage from './pages/futuristicPages/awsMlPage/AwsMlPage';
+import AzureMlPage from './pages/futuristicPages/azureMlPage/AzureMlPage';
+import GcpMlPage from './pages/futuristicPages/gcpMlPage/GcpMlPage';
 function App() {
   return (
    
@@ -49,6 +50,13 @@ function App() {
         <Route path="/azuremicrosoft" element = {<AzureMicrosoftPage/>}/>
         <Route path="/databricks" element = {<DatabricksPage/>}/>
         <Route path="/awsml" element = {<AwsMlPage/>}/>
+        <Route path="/azureml" element = {<AzureMlPage/>}/>
+        <Route path="/gcpml" element = {<GcpMlPage/>}/>
+
+
+
+        
+
 
 
 

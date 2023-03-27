@@ -1,0 +1,172 @@
+.azure-ml-page {
+  padding: 30px 100px;
+}
+.accelerate {
+  display: flex;
+}
+.accelerate-left,
+.accelerate-right {
+  flex: 1.5;
+}
+.accelerate-left > span,
+.accelerate-left > p {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  line-height: 1.25em;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.accelerate-left > p {
+  color: #4b4f58;
+}
+.accelerate-right > video {
+  width: 100%;
+}
+/* azure-logo-wrapper  */
+.azure-logo-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 80px;
+}
+.azure-ml-logo > img {
+}
+.azure-ml-logo > h1 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.azure-ml-logo > h3 {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+
+  line-height: 1.25em;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-top: 20px;
+}
+
+/* azure-ml-boost  */
+.azure-ml-boost,
+.azure-ml-operationalise,
+.azure-ml-build,
+.azure-ml-innovative,
+.azure-ml-advanced-wrapper {
+  display: flex;
+  margin-top: 80px;
+  gap: 30px;
+}
+.azure-ml-boost-left,
+.azure-ml-boost-right {
+  flex: 1.5;
+}
+.azure-ml-boost-left > h1,
+.azure-ml-operationalise-right > h1,
+.azure-ml-build-left > h1 {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  line-height: 1.25em;
+  font-size: 1.3rem;
+}
+.azure-ml-boost-left > p,
+.azure-ml-advanced-left > li {
+  text-align: justify;
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.azure-ml-boost-right > video {
+  width: 100%;
+}
+
+/* azure-ml-operationalise  */
+.azure-ml-operationalise-left,
+.azure-ml-operationalise-right,
+.azure-ml-build-left,
+.azure-ml-build-right,
+.azure-ml-innovative-left,
+.azure-ml-innovative-right {
+  flex: 1.5;
+}
+.azure-ml-operationalise-left > img,
+.azure-ml-build-right > img,
+.azure-ml-innovative-left > img,
+.azure-ml-advanced-left > img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.azure-ml-operationalise-right > p {
+  color: #7a7a7a;
+  font-family: "Robot", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25em;
+}
+.azure-ml-build-left > p {
+  text-align: justify;
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 400;
+}
+
+/* azure-ml-advanced  */
+.azure-ml-advanced {
+}
+.azure-ml-advanced > h1 {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.azure-ml-how-to-use > h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.azure-ml-how-to-use-slider {
+  width: 100%;
+  height: 300px;
+  background-color: purple;
+}
+
+@media screen and (max-width: 1080px) {
+  .azure-ml-page {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .azure-ml-boost-left,
+  .accelerate,
+  .azure-ml-boost,
+  .azure-ml-operationalise,
+  .azure-ml-build,
+  .azure-ml-innovative,
+  .azure-ml-advanced-wrapper {
+    flex-direction: column;
+  }
+  .azure-logo-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .unified-data-top > h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .azure-logo-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .accelerate-left > p {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .azure-ml-advanced > h1 {
+    text-align: left;
+  }
+}
