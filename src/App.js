@@ -23,6 +23,7 @@ import DatabricksPage from './pages/futuristicPages/databricks/DatabricksPage';
 import AwsMlPage from './pages/futuristicPages/awsMlPage/AwsMlPage';
 import AzureMlPage from './pages/futuristicPages/azureMlPage/AzureMlPage';
 import GcpMlPage from './pages/futuristicPages/gcpMlPage/GcpMlPage';
+import HadoopPage from './pages/futuristicPages/hadoopPage/HadoopPage';
 function App() {
   return (
    
@@ -52,6 +53,8 @@ function App() {
         <Route path="/awsml" element = {<AwsMlPage/>}/>
         <Route path="/azureml" element = {<AzureMlPage/>}/>
         <Route path="/gcpml" element = {<GcpMlPage/>}/>
+        <Route path="/hadoop" element = {<HadoopPage/>}/>
+
 
 
 
