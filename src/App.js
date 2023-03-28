@@ -24,6 +24,7 @@ import AwsMlPage from './pages/futuristicPages/awsMlPage/AwsMlPage';
 import AzureMlPage from './pages/futuristicPages/azureMlPage/AzureMlPage';
 import GcpMlPage from './pages/futuristicPages/gcpMlPage/GcpMlPage';
 import HadoopPage from './pages/futuristicPages/hadoopPage/HadoopPage';
+import EmrPage from './pages/futuristicPages/emrPage/EmrPage';
 function App() {
   return (
    
@@ -54,6 +55,8 @@ function App() {
         <Route path="/azureml" element = {<AzureMlPage/>}/>
         <Route path="/gcpml" element = {<GcpMlPage/>}/>
         <Route path="/hadoop" element = {<HadoopPage/>}/>
+        <Route path="/emr" element = {<EmrPage/>}/>
+
 
 
 

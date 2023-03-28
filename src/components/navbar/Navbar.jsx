@@ -42,14 +42,8 @@ const Navbar = () => {
           <li> <Link to={"/contact"} className="link"> Contact </Link> </li>
 
         </ul>
-        {/* <div className='hamburger' onClick={clickHandler}>
-            {
-                click ? <CloseIcon/> : <MenuIcon/>
-            }
+   
 
-        </div> */}
-        
-      
     </div>
   )
 }

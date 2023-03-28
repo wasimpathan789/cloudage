@@ -4,24 +4,25 @@ import Navbar from "../../../components/navbar/Navbar";
 import hadoopImage from "../../../assets/hadoop/hadoop-image.png";
 import hadoopLogo from "../../../assets/hadoop/hadoop-logo.png";
 
-
-
-
 const HadoopPage = () => {
   return (
     <div>
       <Navbar />
       <div className="hadoop-page-card">
-        <h1>Apache Hadoop as A Service
-</h1>
+        <h1>Apache Hadoop as A Service</h1>
         <div className="hadoop-page-card-logo">
-            <p>The open-source project that spawned generations of big-data technologies and provides the foundation for Hive, Pig, and MapReduce, Hadoop is still today’s choice for workloads that require virtually unlimited scalability, a high degree of dependability, and support for a wide range of workload types. These characteristics make Apache Hadoop particularly suitable for batch processing of ETL jobs on large data sets, complex workflow diagrams, or data structures that exceed the in-memory limitations of other engines.
-
-</p>
-<img src={hadoopLogo} alt="" />
-
+          <p>
+            The open-source project that spawned generations of big-data
+            technologies and provides the foundation for Hive, Pig, and
+            MapReduce, Hadoop is still today’s choice for workloads that require
+            virtually unlimited scalability, a high degree of dependability, and
+            support for a wide range of workload types. These characteristics
+            make Apache Hadoop particularly suitable for batch processing of ETL
+            jobs on large data sets, complex workflow diagrams, or data
+            structures that exceed the in-memory limitations of other engines.
+          </p>
+          <img src={hadoopLogo} alt="" />
         </div>
-
       </div>
       <div className="hadoop-wrapper">
         <div className="hadoop-wrapper-top">
@@ -33,9 +34,7 @@ const HadoopPage = () => {
             the open-source Apache Hadoop project.
           </h2>
           <div className="hadoop-image">
-          <img src={hadoopImage} alt="" />
-
-
+            <img src={hadoopImage} alt="" />
           </div>
         </div>
         <div className="hadoop-wrapper-bottom">

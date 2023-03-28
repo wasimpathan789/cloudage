@@ -38,10 +38,10 @@ const Dropdown = () => {
         <Link to={"/hadoop"} className="future-link"> Hadoop as a service</Link>
         </li>
         <li className="menu-item">
-        <Link to={"emr"} className="future-link">EMR</Link>
+        <Link to={"/emr"} className="future-link">EMR</Link>
         </li>
         <li className="menu-item">
-        <Link to={"hdinsight"} className="future-link"> HDInsight</Link>
+        <Link to={"/hdinsight"} className="future-link"> HDInsight</Link>
         </li>
         <li className="menu-item">
         <Link to={"bigquery"} className="future-link">BigQuery</Link>
