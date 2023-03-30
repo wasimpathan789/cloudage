@@ -14,7 +14,6 @@ import protect from "../../../assets/bigquery/protect.png";
 import accelerate from "../../../assets/bigquery/accelerate.png";
 import control from "../../../assets/bigquery/control.png";
 
-
 const BiqQueryPage = () => {
   return (
     <div>
@@ -155,17 +154,19 @@ const BiqQueryPage = () => {
         </div>
 
         <div className="bg-control-cost">
-            <div className="bg-control-cost-left">
-                <img src={control} alt="" />
-            </div>
-            <div className="bg-control-cost-right">
-                <h1>Control costs and reduce TCO
-</h1>
-                <p>Only pay for the storage and compute resources you use, thanks to BigQuery’s serverless architecture. BigQuery’s separation of storage and computing makes it easy to scale independently and endlessly on demand, resulting in low-cost, economical storage. BigQuery can lower the total cost of ownership by 56%–88%.
-
-</p>
-            </div>
-
+          <div className="bg-control-cost-left">
+            <img src={control} alt="" />
+          </div>
+          <div className="bg-control-cost-right">
+            <h1>Control costs and reduce TCO</h1>
+            <p>
+              Only pay for the storage and compute resources you use, thanks to
+              BigQuery’s serverless architecture. BigQuery’s separation of
+              storage and computing makes it easy to scale independently and
+              endlessly on demand, resulting in low-cost, economical storage.
+              BigQuery can lower the total cost of ownership by 56%–88%.
+            </p>
+          </div>
         </div>
       </div>
       <Work

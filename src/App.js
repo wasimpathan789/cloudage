@@ -27,6 +27,7 @@ import HadoopPage from './pages/futuristicPages/hadoopPage/HadoopPage';
 import EmrPage from './pages/futuristicPages/emrPage/EmrPage';
 import HdInsightPage from './pages/futuristicPages/hdInsightPage/HdInsightPage';
 import BiqQueryPage from './pages/futuristicPages/bigqueryPage/BiqQueryPage';
+import GcpGooglePage from './pages/futuristicPages/gcpGooglePage/GcpGooglePage';
 function App() {
   return (
    
@@ -60,6 +61,10 @@ function App() {
         <Route path="/emr" element = {<EmrPage/>}/>
         <Route path="/hdinsight" element = {<HdInsightPage/>}/>
         <Route path="/bigquery" element = {<BiqQueryPage/>}/>
+        <Route path="/gcpgoogle" element = {<GcpGooglePage/>}/>
+
+
+        
 
 
 
