@@ -1,0 +1,229 @@
+.bg-recomondation {
+  background-color: #0076a8;
+  padding: 10px 0px;
+}
+.bg-recomondation > h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.bg-insight-banner {
+  background-image: url(../../../assets/bigquery/bg.jpg);
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.bg-insight-banner-left {
+  flex: 2;
+}
+.bg-insight-banner-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.bg-insight-banner-right > img {
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+.bg-wrapper {
+  padding: 30px 100px;
+}
+.bg-big-query > h1 {
+  color: #000000;
+  font-family: "Alice", Sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+  font-size: 2rem;
+}
+.bg-big-query-container {
+  display: flex;
+  gap: 30px;
+}
+.bg-big-query-container-left {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 300;
+  flex: 1.5;
+}
+.bg-big-query-container-right {
+  flex: 1.3;
+}
+.bg-big-query-container-right > video {
+  width: 100%;
+}
+
+/* bg-focus */
+.bg-focus > h1 {
+  text-align: center;
+  color: #6ec1e4;
+  margin-top: 50px;
+  font-size: 2.7rem;
+  margin: 30px 0px;
+}
+.bg-focus-wrapper {
+  display: flex;
+  margin: 50px 0px;
+}
+.bg-focus-left {
+  flex: 1;
+}
+.bg-focus-left > img {
+  width: 80%;
+}
+.bg-focus-right {
+  flex: 1.6;
+}
+.bg-focus-right > h2 {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 600;
+  line-height: 1.25em;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+/* bg-scale-seamly */
+
+.bg-scale-seamly {
+  display: flex;
+  gap: 30px;
+  margin: 80px 0px;
+  /* background-color: red; */
+}
+.bg-scale-seamly-left {
+  flex: 1.6;
+  text-align: justify;
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 400;
+  /* word-spacing: 5%; */
+}
+.bg-scale-seamly-left > h1 {
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  /* line-height: 1.25em; */
+  font-size: 2rem;
+  margin: 30px 0px;
+  /* color: red; */
+}
+.bg-scale-seamly-right {
+  flex: 1;
+}
+.bg-scale-seamly-right > img {
+  width: 80%;
+}
+.bg-accelerate > h1 {
+  color: #000000;
+  /* font-family: "Verdana", Sans-serif; */
+  font-weight: 600;
+  line-height: 1.4em;
+  font-size: 2.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-accelerate-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0px;
+}
+.bg-accelerate-wrapper-left {
+  flex: 1;
+}
+.bg-accelerate-wrapper-left > img {
+  width: 100%;
+}
+.bg-accelerate-wrapper-right {
+  flex: 1.6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* bg-control-cost  */
+.bg-control-cost {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0px;
+}
+.bg-control-cost-left {
+  flex: 1;
+}
+.bg-control-cost-left > img {
+  width: 80%;
+}
+.bg-control-cost-right {
+  flex: 1.6;
+}
+.bg-control-cost-right > h1 {
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  /* line-height: 1.25em; */
+  font-size: 2rem;
+}
+.bg-control-cost-right > p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1080px) {
+  .bg-wrapper {
+    padding: 30px 20px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .bg-recomondation {
+    padding: 10px 20px;
+  }
+  .bg-recomondation > h1 {
+    font-size: 1rem;
+  }
+  .bg-insight-banner {
+    padding: 50px 20px;
+  }
+  .bg-big-query-container,
+  .bg-accelerate-wrapper,
+  .bg-scale-seamly,
+  .bg-focus-wrapper,
+  .bg-control-cost {
+    flex-direction: column;
+  }
+  .bg-control-cost-left > img,
+  .bg-accelerate-wrapper-left > img,
+  .bg-scale-seamly-right > img,
+  .bg-focus-left > img {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  .bg-focus > h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg-focus > h1,
+  .bg-accelerate > h1,
+  .bg-scale-seamly-left> h1,
+  .bg-control-cost-right > h1,
+  .bg-focus-right>h2 {
+    font-size: 1.4rem;
+    text-align: left;
+  margin-top: 30px;
+  }
+  .bg-focus-wrapper {
+
+    margin: 0;
+    /* background-color: blue; */
+  }
+  .bg-scale-seamly {
+    margin: 0px 0px;
+  }
+}
