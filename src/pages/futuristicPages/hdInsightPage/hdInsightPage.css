@@ -1,0 +1,258 @@
+.hd-insight-banner{
+  display: flex;
+  background-color: #323237;
+  padding: 90px 100px;
+/* justify-content: center; */
+align-items: center;
+}
+.hd-insight-banner-left{
+  /* background-color: red; */
+  flex: 1.5;
+
+}
+.hd-insight-banner-left>h1{
+  color: #FFFFFF;
+  font-family: "Alice", Sans-serif;
+  font-weight: 600;
+  line-height: 1.4em;
+font-size: 2.7rem;
+}
+.hd-insight-banner-left>p{
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  color: #FFFFFF;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 600;
+
+}
+.hd-insight-banner-right{
+  /* background-color: blue; */
+  flex: 1;
+}
+.hd-insight-banner-right>img{
+  width: 100%;
+  /* width: 400px; */
+  background-size: cover;
+  height: 200px;
+}
+
+
+
+.explore-hd{
+  background-color: #f2295b;
+  padding: 10px 100px;
+
+}
+.explore-hd>h1{
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: "Tahoma", Sans-serif;
+  font-weight: 600;
+
+
+}
+
+
+
+
+/* why-hd-insight  */
+.why-hd-insight{
+padding: 30px 100px;
+}
+.why-hd-insight>h1{
+  color: #54595F;
+font-family: "Verdana", Sans-serif;
+font-weight: 600;
+font-size: 2rem;
+
+}
+.why-hd-insight-cards{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+/* hd-related-products */
+.hd-related-products{
+  background-color: #607D8B;
+  padding: 30px 150px;
+}
+.hd-related-products>h1{
+  box-sizing: inherit;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+margin-bottom: 12px;
+color: rgb(255, 255, 255);
+font-family: "Segoe UI", SegoeUI, "Segoe WP", Tahoma, Arial, sans-serif;
+overflow-wrap: break-word;
+white-space: normal;
+-webkit-tap-highlight-color: transparent;
+zoom: 1;
+margin-block: 0.83em;
+}
+.hd-related-products-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* width: 100%; */
+}
+.hd-related-products-cards>img{
+  width: 100%;
+  height: 300px;
+}
+
+.what-comes-wrapper{
+    padding: 30px 100px;
+}
+.what-comes-wrapper>h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.apache-logo-cards{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  /* justify-content: space-evenly; */
+  /* background-color: red; */
+  margin-bottom: 60px;
+
+}
+.apache-logo-card{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.apache-logo-card>img{
+  width: 100%;
+  height: 60px;
+}
+.apache-logo-card>h1{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
+/* open-source-cards */
+.open-source-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+
+/* what-can  */
+.what-can>h1{
+  text-align: center;
+  color: #54595F;
+font-family: "Verdana", Sans-serif;
+font-weight: 600;
+line-height: 1.25em;
+font-size: 2rem;
+margin: 50px 0px 50px 0px;
+}
+.what-can-wrapper {
+  display: flex;
+  gap: 30px;
+  /* border: 1px solid red; */
+}
+.what-can-wrapper-left,
+.what-can-wrapper-right{
+margin: 50px 0px 50px 0px;
+  
+
+}
+.what-can-wrapper-left>h1{
+  color: #000000;
+font-family: "Verdana", Sans-serif;
+font-size: 1.1rem;
+}
+/* hd-use-cases  */
+.hd-use-cases>h1{
+  font-size: 1.6rem;
+  text-align: center;
+margin: 50px 0px 50px 0px;
+
+}
+.hd-use-cases-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+}
+.hd-use-cases-card>h1{
+  color: #000000;
+font-family: "Verdana", Sans-serif;
+font-weight: 700;
+font-size: 1rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .hd-insight-banner,
+    .explore-hd,
+    .why-hd-insight,
+    .hd-related-products,
+    .what-comes-wrapper{
+        padding: 30px 20px;
+    }
+  }
+  @media screen and (max-width: 780px) {
+    .hd-insight-banner{
+      flex-direction: column;
+    }
+    .hd-insight-banner-right>img{
+      width: 100%;
+      height: auto;
+    }
+    .why-hd-insight-cards,
+    .hd-related-products-cards,
+    .apache-logo-cards{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .why-hd-insight>h1,
+    .explore-hd>h1{
+      font-size: 1.5rem;
+    }
+    .hd-related-products-cards>img{
+      margin: auto;
+      width: 80%;
+      height: 90%;
+      background-size: cover;
+    }
+    .apache-logo-cards{
+
+    }
+   .open-source-cards {
+      grid-template-columns: repeat(1,1fr);
+   }
+   .open-source-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  }
+  @media screen and (max-width: 480px) {
+      .emr-get-started > h1 {
+          font-size: 1.7rem;
+        }
+      
+      .erm-benefits-headline {
+      font-size: 1.8rem;
+    }
+    .emr-work>h1,
+    .amazon-emr > h1{
+      font-size: 1.5rem;
+      text-align: left;
+      /* color: red; */
+  }
+    .emr-benefits-cards,
+  .emr-cases-cards {
+    grid-gap: 0px;
+  }
+  }

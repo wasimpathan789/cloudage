@@ -44,38 +44,32 @@ const Dropdown = () => {
         <Link to={"/hdinsight"} className="future-link"> HDInsight</Link>
         </li>
         <li className="menu-item">
-        <Link to={"bigquery"} className="future-link">BigQuery</Link>
+        <Link to={"/bigquery"} className="future-link">BigQuery</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">Data as a service</Link>
+        <Link to={"/dataasa"} className="future-link">Data as a service</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">Apache Spark</Link>
+        <Link to={"/apache"} className="future-link">Apache Spark</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">H2O</Link>
+        <Link to={"/h2o"} className="future-link">H2O</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">ARtificial Intelligence</Link>
+        <Link to={"/artificial"} className="future-link">ARtificial Intelligence</Link>
         </li>
         <li className="menu-item">
         <Link to={"/databricks"} className="future-link">Data Bricks</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link">AWS Amazon</Link>
+        <Link to={"/awsamazon"} className="future-link">AWS Amazon</Link>
         </li>
         <li className="menu-item">
         {/* <Route path="/ai" element = {<AiPage/>}/> */}
         <Link to={"/azuremicrosoft"} className="future-link"> Azure (Microsoft)</Link>
         </li>
         <li className="menu-item">
-        <Link className="future-link"> GCP (Google)</Link>
-        </li>
-        <li className="menu-item">
-        <Link className="future-link">Cancellation & Refund Policy</Link>
-        </li>
-        <li className="menu-item">
-        <Link className="future-link">Cloud</Link>
+        <Link  to={"/gcpgoogle"}className="future-link"> GCP (Google)</Link>
         </li>
 
 

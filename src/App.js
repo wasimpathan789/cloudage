@@ -25,6 +25,7 @@ import AzureMlPage from './pages/futuristicPages/azureMlPage/AzureMlPage';
 import GcpMlPage from './pages/futuristicPages/gcpMlPage/GcpMlPage';
 import HadoopPage from './pages/futuristicPages/hadoopPage/HadoopPage';
 import EmrPage from './pages/futuristicPages/emrPage/EmrPage';
+import HdInsightPage from './pages/futuristicPages/hdInsightPage/HdInsightPage';
 function App() {
   return (
    
@@ -56,6 +57,8 @@ function App() {
         <Route path="/gcpml" element = {<GcpMlPage/>}/>
         <Route path="/hadoop" element = {<HadoopPage/>}/>
         <Route path="/emr" element = {<EmrPage/>}/>
+        <Route path="/hdinsight" element = {<HdInsightPage/>}/>
+
 
 
 

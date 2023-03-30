@@ -1,0 +1,10 @@
+
+.hd-insight-card{
+    display: flex;
+    gap: 30px;
+}
+.hd-insight-card-right>h1{
+    font-weight: 700;
+    font-size: 1rem;
+
+}
