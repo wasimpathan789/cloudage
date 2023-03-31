@@ -3,8 +3,10 @@
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    background-color: red;
     padding: 0px 25px ;
     top: 20px;
+    /* width: 100%; */
 }
 .logo {
     display: flex;

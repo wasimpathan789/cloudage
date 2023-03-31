@@ -1,0 +1,194 @@
+
+
+
+
+
+/* microsoft-the-cloud */
+.microsoft-the-cloud{
+background-image: url(../../../assets/azure-microsoft/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+/* width: 100%; */
+padding: 50px 100px;
+}
+.microsoft-the-cloud>h1{
+    color: #FFFFFF;
+    font-family: "Verdana", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.25em;
+    text-align: center;
+}
+.microsoft-the-cloud-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.microsoft-wrapper{
+    padding: 50px 100px;
+}
+/* start-turning-cards */
+.microsoft-start-turning>h1{
+    color: #000000;
+    font-family: "Verdana", Sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    line-height: 1.2em;
+    font-size: 1.53rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.start-turning-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+}
+
+.start-turning-card>h1{
+    color: #3a3a3a;
+    font-size: 18px;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    font-weight: 700;
+
+}
+.start-turning-card>p{
+    margin-bottom: 1.6em;
+    font-family: Verdana, sans-serif;
+    color: #7A7A7A;
+    color: #000000;
+    font-size: 0.9rem;
+}
+.start-turning-card>img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* microsoft-regions  */
+.microsoft-regions{
+    padding: 30px;
+}
+
+.microsoft-regions>h1{
+    color: rgb(96, 125, 139);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-align: center;
+    white-space: normal;
+    margin: 50px 0px;
+
+}
+.microsoft-regions-image>img{
+    width: 100%;
+    background-size: cover;
+    /* height: 10%; */
+    height: 500px;
+}
+
+/* .ready-to-go-*/
+
+.ready-to-go>h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.ready-to-go-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+
+}
+.ready-to-go-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.ready-to-go-card-left>img{
+    width: 70px;
+    height: 80px;
+
+}
+.ready-to-go-card-right>h1{
+    font-weight: 600;
+    color: #3a3a3a;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    font-family: Roboto;
+
+}
+.ready-to-go-card-right>p{
+    margin-bottom: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    word-spacing: 5px;
+    /* font-weight: 300; */
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1080px) {
+    .microsoft-wrapper{
+        padding: 30px 20px;
+    }
+    .microsoft-regions{
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:780px) {
+    .start-turning-cards,
+    .start-turning-cards,
+    .ready-to-go-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+    }
+    .microsoft-the-cloud-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        /* padding: 0; */
+    }
+    .microsoft-the-cloud{
+        padding: 30px;
+    }
+    .microsoft-the-cloud-wrapper>img{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        background-size: contain;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .microsoft-regions>h1{
+        font-size: 2rem;
+    
+    }
+   .microsoft-regions-image>img{
+    background-size: cover;
+    height: 300px
+   };
+}
+@media screen and (max-width:480px) {
+    .microsoft-regions>h1,
+    .microsoft-start-turning>h1{
+        font-size: 1.5rem;
+        /* color: red; */
+    
+    }
+}
