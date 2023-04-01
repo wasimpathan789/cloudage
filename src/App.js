@@ -1,11 +1,6 @@
 import './App.css';
 import { BrowserRouter, Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
-import Work from './components/work/Work';
-import Footer from './components/footer/Footer';
-import Deliver from './components/deliver/Deliver';
-import Why from './components/why/Why';
-import Navbar from './components/navbar/Navbar';
 import ServicePage from './pages/servicepage/ServicePage';
 import HomePage from './pages/homepage/HomePage';
 import CorporatePage from './pages/corporatepage/CorporatePage';
@@ -29,6 +24,7 @@ import GcpGooglePage from './pages/futuristicPages/gcpGooglePage/GcpGooglePage';
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import AmazonAwsPage from './pages/futuristicPages/amazonAwsPage/AmazonAwsPage';
+import ApacheSparkPage from './pages/futuristicPages/apacheSparkPage/ApacheSparkPage';
 
 AOS.init();
 function App() {
@@ -58,6 +54,11 @@ function App() {
         <Route path="/bigquery" element = {<BiqQueryPage/>}/>
         <Route path="/gcpgoogle" element = {<GcpGooglePage/>}/>
         <Route path="/amazonaws" element = {<AmazonAwsPage/>}/>
+        <Route path="/artificial" element = {<AiPage/>}/>
+        <Route path="/apache" element = {<ApacheSparkPage/>}/>
+
+
+
 
 
 

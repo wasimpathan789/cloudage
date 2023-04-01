@@ -1,0 +1,158 @@
+.apache-banner{
+    background-color: #EDEDED;
+    display: flex;
+    padding: 80px 100px;
+}
+.apache-banner-left{
+    flex: 1.5;
+}
+.apache-banner-left>h1{
+    margin-bottom: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    zoom: 1;
+    font-size: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 0.15;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDownBig;
+    visibility: visible;
+    text-shadow: rgba(0, 0, 0, 0.25) -2px 2px 3px;
+    font-style: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0.05rem;
+    text-rendering: optimizelegibility;
+    transition: all 0.2s ease-in-out 0s;
+    margin-block: 0.83em;
+    -webkit-font-smoothing: antialiased;
+}
+.apache-banner-left>p{
+    margin-bottom: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    zoom: 1;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.15;
+    font-size: 30px;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInRightBig;
+    visibility: visible;
+    text-shadow: rgba(0, 0, 0, 0.25) -2px 2px 3px;
+    font-style: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0.05rem;
+    text-rendering: optimizelegibility;
+    transition: all 0.2s ease-in-out 0s;
+    margin-block-start: 0.83em;
+    -webkit-font-smoothing: antialiased;
+}
+.apache-banner-right{
+    flex: 1;
+}
+.apache-banner-right>img{
+   width: 100%;
+}
+
+.apache-sparks>h1{
+    color: rgb(96, 125, 139);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    text-align: justify;
+    white-space: normal;
+}
+.apache-spark-left{
+    color: red;
+    text-align: justify;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;
+    flex: 1.4;
+    
+}
+.apache-spark-right{
+    flex: 1;
+}
+.apache-sparks{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+.apache-spark-right>video{
+    width: 100%;
+
+}
+.apache-spark{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.apache-easy{
+    padding: 50px 100px;
+    display: flex;
+    gap: 30px;
+}
+.apache-easy-left,
+.apache-easy-right{
+    flex: 1;
+}
+.apache-easy-left>img{
+    width: 100%;
+
+}
+.apache-easy-right>h1{
+    color: rgb(48, 88, 104);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: justify;
+    white-space: normal;
+}
+.apache-easy-right>p{
+    margin-bottom: 1.6em;
+    text-align: justify;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+/* ."fast-processing */
+.fast-processing{
+    display: flex;
+    padding: 80px 100px;
+    gap: 30px;
+
+}
+.fast-processing-left,
+.fast-processing-right{
+    flex: 1;
+}
+.fast-processing-right>img{
+    width: 100%;
+}
+.fast-processing-left>h1{
+    color: rgb(48, 88, 104);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: justify;
+    white-space: normal;
+
+}
+.fast-processing-right>p{
+    margin-bottom: 1.6em;
+    text-align: justify;
+    color: #000000;
+    font-family: Verdana, Sans-serif;
+
+}
