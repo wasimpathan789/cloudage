@@ -3,7 +3,6 @@
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    background-color: red;
     padding: 0px 25px ;
     top: 20px;
     /* width: 100%; */
@@ -18,7 +17,7 @@
 
   @keyframes pulse {
     from { transform: scale(0.8); }
-    to { transform: scale(1.2); }
+    to { transform: scale(1); }
   }
   
 .logo>img{

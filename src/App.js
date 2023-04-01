@@ -1,8 +1,6 @@
 import './App.css';
 import { BrowserRouter, Router } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
-import Hero from './components/hero/Hero'
-import Affiliation from './components/affiliation/Affiliation';
 import Work from './components/work/Work';
 import Footer from './components/footer/Footer';
 import Deliver from './components/deliver/Deliver';
@@ -28,18 +26,15 @@ import EmrPage from './pages/futuristicPages/emrPage/EmrPage';
 import HdInsightPage from './pages/futuristicPages/hdInsightPage/HdInsightPage';
 import BiqQueryPage from './pages/futuristicPages/bigqueryPage/BiqQueryPage';
 import GcpGooglePage from './pages/futuristicPages/gcpGooglePage/GcpGooglePage';
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import AmazonAwsPage from './pages/futuristicPages/amazonAwsPage/AmazonAwsPage';
+
+AOS.init();
 function App() {
   return (
    
     <BrowserRouter>
-    {/* <Navbar/>
-     <Hero/>
-     <Why/>
-     <Deliver/> */}
-     {/* <Affiliation/> */}
-     {/* <Work/>
-     <Footer/> */}
-
       <Routes>
         <Route path="/" element = {<HomePage/>}/>
         <Route path="/about" element = {<AboutPage/>}/>
@@ -62,6 +57,8 @@ function App() {
         <Route path="/hdinsight" element = {<HdInsightPage/>}/>
         <Route path="/bigquery" element = {<BiqQueryPage/>}/>
         <Route path="/gcpgoogle" element = {<GcpGooglePage/>}/>
+        <Route path="/amazonaws" element = {<AmazonAwsPage/>}/>
+
 
 
         

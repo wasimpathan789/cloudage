@@ -18,17 +18,15 @@ import capture15 from "../../../assets/azure-microsoft/capture15.png";
 import capture16 from "../../../assets/azure-microsoft/capture16.png";
 import azure from "../../../assets/azure-microsoft/azure.png";
 
-
-
-
 const AzureMicrosoftPage = () => {
   return (
     <div>
       <Navbar />
       <div className="hd-insight-banner">
-        <div className="hd-insight-banner-left">
-          <h1>Invent with purpose.</h1>
-          <p>Empower your inner inventor to turn ideas into outcomes.</p>
+        <div
+        >
+          <h1  data-aos="fade-right">Invent with purpose.</h1>
+          <p  data-aos="fade-right"> Empower your inner inventor to turn ideas into outcomes.</p>
         </div>
         <div className="hd-insight-banner-right">
           <img src={capture5} alt="" />
@@ -39,7 +37,12 @@ const AzureMicrosoftPage = () => {
         <div className="microsoft-start-turning">
           <h1>Start turning your ideas into solutions with Azure</h1>
           <div className="start-turning-cards">
-            <div className="start-turning-card">
+            <div
+              className="start-turning-card "
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <img src={capture10} alt="" />
               <h1>Be future-ready</h1>
               <p>
@@ -48,7 +51,12 @@ const AzureMicrosoftPage = () => {
               </p>
             </div>
 
-            <div className="start-turning-card">
+            <div
+              className="start-turning-card"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <img src={capture13} alt="" />
               <h1>Build on your terms</h1>
               <p>
@@ -57,7 +65,12 @@ const AzureMicrosoftPage = () => {
               </p>
             </div>
 
-            <div className="start-turning-card">
+            <div
+              className="start-turning-card"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <img src={capture11} alt="" />
               <h1>Operate hybrid seamlessly</h1>
               <p>
@@ -67,7 +80,12 @@ const AzureMicrosoftPage = () => {
               </p>
             </div>
 
-            <div className="start-turning-card">
+            <div
+              className="start-turning-card"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
               <img src={capture12} alt="" />
               <h1>Trust your cloud</h1>
               <p>
@@ -88,7 +106,12 @@ const AzureMicrosoftPage = () => {
         <div className="ready-to-go">
           <h1>Ready-to-go solutions to start building today</h1>
           <div className="ready-to-go-cards">
-            <div className="ready-to-go-card">
+            <div
+              className="ready-to-go-card"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="ready-to-go-card-left">
                 <img src={capture9} alt="" />
               </div>
@@ -100,82 +123,91 @@ const AzureMicrosoftPage = () => {
                   sensors.
                 </p>
               </div>
-              
             </div>
-            <div className="ready-to-go-card">
+            <div
+              className="ready-to-go-card"
+              data-aos="fade-left"
+         
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <div className="ready-to-go-card-left">
-              <img src={azure} alt="" />
-
+                <img src={azure} alt="" />
               </div>
               <div className="ready-to-go-card-right">
-                <h1>Internet of Things</h1>
+                <h1>SAP on Azure</h1>
                 <p>
-                  Power your digital transformation, collect untapped data and
-                  find new insights by connecting your devices, assets and
-                  sensors.
+                  Bring cloud scale and agility to your mission-critical SAP
+                  workloads.
                 </p>
               </div>
-              
             </div>
-            <div className="ready-to-go-card">
+            <div
+              className="ready-to-go-card"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="ready-to-go-card-left">
-              <img src={capture7} alt="" />
-
+                <img src={capture7} alt="" />
               </div>
               <div className="ready-to-go-card-right">
-                <h1>Internet of Things</h1>
+                <h1>AI Platform</h1>
                 <p>
-                  Power your digital transformation, collect untapped data and
-                  find new insights by connecting your devices, assets and
-                  sensors.
+                  Artificial intelligence productivity for every developer and
+                  every scenario.
                 </p>
               </div>
-              
             </div>
-            <div className="ready-to-go-card">
+            <div
+              className="ready-to-go-card"
+              data-aos="fade-left"
+            
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
               <div className="ready-to-go-card-left">
-              <img src={capture14} alt="" />
-
+                <img src={capture14} alt="" />
               </div>
               <div className="ready-to-go-card-right">
-                <h1>Internet of Things</h1>
+                <h1>DevOps</h1>
                 <p>
-                  Power your digital transformation, collect untapped data and
-                  find new insights by connecting your devices, assets and
-                  sensors.
+                  Bring together people, processes and products to enable
+                  continuous delivery of value to your end users.
                 </p>
               </div>
-              
             </div>
-            <div className="ready-to-go-card">
+            <div
+              className="ready-to-go-card"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <div className="ready-to-go-card-left">
-              <img src={capture15} alt="" />
-
+                <img src={capture15} alt="" />
               </div>
               <div className="ready-to-go-card-right">
-                <h1>Internet of Things</h1>
+                <h1>Gaming</h1>
                 <p>
-                  Power your digital transformation, collect untapped data and
-                  find new insights by connecting your devices, assets and
-                  sensors.
+                  Build, quickly launch and reliably scale your games across
+                  platforms and refine based on analytics.
                 </p>
               </div>
-              
             </div>
-            <div className="ready-to-go-card">
+            <div className="ready-to-go-card"  data-aos="fade-left"
+    
+     data-aos-offset="500"
+     data-aos-duration="500">
               <div className="ready-to-go-card-left">
-              <img src={capture16} alt="" />
-
+                <img src={capture16} alt="" />
               </div>
               <div className="ready-to-go-card-right">
-                <h1>Internet of Things</h1>
+                <h1>Blockchain</h1>
                 <p>
-                  Power your digital transformation, collect untapped data and
-                  find new insights by connecting your devices, assets and
-                  sensors.
+                  Quickly develop and deploy distributed apps on the blockchain
+                  of your choice.
                 </p>
               </div>
-              
             </div>
           </div>
         </div>
@@ -184,9 +216,12 @@ const AzureMicrosoftPage = () => {
       <div className="microsoft-the-cloud">
         <h1>The cloud you can trust, with the numbers to prove it</h1>
         <div className="microsoft-the-cloud-wrapper">
-          <img src={one} alt="" />
-          <img src={two} alt="" />
-          <img src={three} alt="" />
+          <img src={one} alt=""   data-aos="fade-up"
+     data-aos-anchor-placement="center-center"/>
+          <img src={two} alt=""  data-aos="fade-up"
+     data-aos-anchor-placement="center-center" />
+          <img src={three} alt=""  data-aos="fade-up"
+     data-aos-anchor-placement="center-center" />
         </div>
       </div>
       <Footer />

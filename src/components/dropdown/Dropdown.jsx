@@ -62,7 +62,7 @@ const Dropdown = () => {
         <Link to={"/databricks"} className="future-link">Data Bricks</Link>
         </li>
         <li className="menu-item">
-        <Link to={"/awsamazon"} className="future-link">AWS Amazon</Link>
+        <Link to={"/amazonaws"} className="future-link">AWS Amazon</Link>
         </li>
         <li className="menu-item">
         {/* <Route path="/ai" element = {<AiPage/>}/> */}

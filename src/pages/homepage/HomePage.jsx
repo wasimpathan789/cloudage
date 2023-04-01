@@ -14,7 +14,7 @@ import img6 from '../../assets/schlumburger.png'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="homepage">
         <Navbar/>
         <Hero/>
         <Why/>
