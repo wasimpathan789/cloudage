@@ -1,0 +1,171 @@
+.awsbanner {
+  background: url("../../../assets/amazon-aws/bg.jpg") no-repeat border-box;
+  background-size: cover;
+  width: auto;
+  padding: 80px 100px;
+}
+.awsbanner > h1 {
+  color: #ffffff;
+  font-family: "Alice", Sans-serif;
+  font-size: 69px;
+  line-height: 1.25em;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+.awsbanner > p {
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-align: center;
+}
+/* .you-dont  */
+.you-dont {
+  background-color: #e7e7e7;
+  padding: 80px 100px;
+}
+.you-dont > h1 {
+  color: #000000;
+  font-family: "Verdana", Sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.you-dont-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.you-dont-card-img > img {
+  /* width: 100%; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.you-dont-card > h1 {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+}
+.you-dont-card > p {
+  margin-bottom: 1.6em;
+  text-align: left;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* aws-market"  */
+.aws-market,
+.global-network {
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.aws-market > h2,
+.global-network > h1 {
+  color: rgb(35, 47, 62);
+  font-family: AmazonEmber, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  white-space: normal;
+}
+.aws-market > p,
+.global-network > p {
+  margin-bottom: 1.6em;
+  text-align: center;
+  color: #000000;
+  /* font-family: "Verdana", Sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+.aws-engineer > img,
+.global-network-image > img,
+.aws-market-logo>img {
+  width: 100%;
+  background-size: cover;
+}
+.global-network > h1 {
+}
+.analysis-reports {
+  padding: 80px 100px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+}
+.analysis-report {
+  display: flex;
+  gap: 30px;
+}
+
+.analysis-report-left > img {
+  width: 100%;
+  background-size: cover;
+}
+.analysis-report-right > h1 {
+  font-weight: 700;
+  color: #3a3a3a;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.analysis-report-right > p {
+  color: #000000;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1080px) {
+  .analysis-reports,
+  .aws-market,
+  .global-network,
+  .you-dont,
+  .awsbanner {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .awsbanner>h1{
+    font-size: 3rem;
+  }
+  .awsbanner>p{
+    font-size: 1rem;
+  }
+    .analysis-reports,
+    .you-dont-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .analysis-report-left>img{
+        width: 100%;
+        margin: auto;
+        /* background-color: red; */
+    }
+    .analysis-report-left{
+        margin: auto;
+    }
+    .analysis-report {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+  }
+
+  
+@media screen and (max-width: 480px) {
+    .you-dont > h1{
+        font-size: 1rem;
+        /* color: red; */
+    }
+    .aws-market>h2,
+    .global-network>h1{
+        font-size: 1.7rem;
+    }
+  }
+  
