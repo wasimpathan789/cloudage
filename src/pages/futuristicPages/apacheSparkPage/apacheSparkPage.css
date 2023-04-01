@@ -156,3 +156,31 @@
     font-family: Verdana, Sans-serif;
 
 }
+@media screen and (max-width: 1080px) {
+    .apache-banner,
+    .apache-sparks,
+    .apache-easy,
+    .fast-processing {
+      padding: 30px 20px;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .apache-banner,
+    .apache-spark,
+    .apache-easy,
+    .fast-processing{
+      flex-direction: column;
+    }
+    .apache-banner-left>h1,
+    .apache-sparks>h1,
+    .apache-easy-right>h1,
+    .fast-processing-left>h1
+
+    {
+        font-size: 2rem;
+    }
+    .apache-banner-left>p{
+        font-size: 1.3rem;
+    }
+  }

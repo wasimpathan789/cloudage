@@ -15,28 +15,40 @@ import lgwoman from "../../../assets/apache/lgwoman.jpg";
 import lg from "../../../assets/apache/lg.jpg";
 import one from "../../../assets/apache/one.png";
 
-
 const ApacheSparkPage = () => {
   return (
     <div>
       <Navbar />
       <div className="apache-banner">
         <div className="apache-banner-left">
-          <h1>APACHE Spark</h1>
-          <p>
+          <h1 data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            APACHE Spark
+          </h1>
+          <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             Apache Spark is a unified analytics engine for Big Data processing,
             with built-in modules for streaming, SQL, Machine Learning and graph
             processing.
           </p>
         </div>
         <div className="apache-banner-right">
-          <img src={logo} alt="" />
+          <img
+            src={logo}
+            alt=""
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          />
         </div>
       </div>
       <div className="apache-sparks">
         <h1>Apache Spark™</h1>
         <div className="apache-spark">
-          <div className="apache-spark-left">
+          <div
+            className="apache-spark-left"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             An integrated part of CDH and supported with Cloudera Enterprise,
             Apache Spark is the open standard for flexible in-memory data
             processing that enables batch, real-time, and advanced analytics on
@@ -60,11 +72,15 @@ const ApacheSparkPage = () => {
 
       <div className="apache-easy">
         <div className="apache-easy-left">
-          <img src={dev} alt="" />
+          <img src={dev} alt="" data-aos="flip-up" data-aos-duration="2000" />
         </div>
         <div className="apache-easy-right">
           <h1>Easy, Productive Development</h1>
-          <p>
+          <p
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Simple, yet rich, APIs for Java, Scala, and Python open up data for
             interactive discovery and iterative development of applications.
             Through shared common code, data scientists and developers can
@@ -78,7 +94,11 @@ const ApacheSparkPage = () => {
       <div className="fast-processing">
         <div className="fast-processing-left">
           <h1>Fast Processing</h1>
-          <p>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Take advantage of Spark’s distributed in-memory storage for
             high-performance processing across a variety of use cases, including
             batch processing, real-time streaming, and advanced modeling and
@@ -88,17 +108,26 @@ const ApacheSparkPage = () => {
           </p>
         </div>
         <div className="fast-processing-right">
-          <img src={lg} alt="" />
+          <img src={lg} alt="" data-aos="flip-down" data-aos-duration="2000" />
         </div>
       </div>
 
       <div className="apache-easy">
         <div className="apache-easy-left">
-          <img src={lgwoman} alt="" />
+          <img
+            src={lgwoman}
+            alt=""
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          />
         </div>
         <div className="apache-easy-right">
           <h1>The Cloudera difference for Apache Spark</h1>
-          <p>
+          <p
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             The first integrated solution to support Apache Spark, Cloudera not
             only has the most experience — with production customers across
             industries — but also has built the deepest engineering integration
@@ -112,19 +141,29 @@ const ApacheSparkPage = () => {
       </div>
       <div className="fast-processing">
         <div className="fast-processing-left">
-          <h1>The One Platform Initiative
-</h1>
-          <p>
-          Apache Spark is well-positioned to replace MapReduce as the default data-processing engine in the Hadoop ecosystem, but for customers to fully embrace Spark for all production workloads, there is still work to be done to make it enterprise-grade. Cloudera’s One Platform Initiative focuses on the need to deeply integrate Spark with the Hadoop ecosystem so users get maximum benefits from their big data infrastructure. To achieve this vision, Cloudera’s committers, working alongside the community, will specifically address the issues shown in the diagram to the right (with some items already done).
-
-
+          <h1>The One Platform Initiative</h1>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Apache Spark is well-positioned to replace MapReduce as the default
+            data-processing engine in the Hadoop ecosystem, but for customers to
+            fully embrace Spark for all production workloads, there is still
+            work to be done to make it enterprise-grade. Cloudera’s One Platform
+            Initiative focuses on the need to deeply integrate Spark with the
+            Hadoop ecosystem so users get maximum benefits from their big data
+            infrastructure. To achieve this vision, Cloudera’s committers,
+            working alongside the community, will specifically address the
+            issues shown in the diagram to the right (with some items already
+            done).
           </p>
         </div>
         <div className="fast-processing-right">
-          <img src={one} alt="" />
+          <img src={one} alt="" data-aos="flip-down" data-aos-duration="1500" />
         </div>
       </div>
-      
+
       <Work
         title={"We Train Employees That Work Here"}
         image1={hcl}
