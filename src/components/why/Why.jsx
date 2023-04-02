@@ -6,8 +6,12 @@ import CheckIcon from "@mui/icons-material/Check";
 const Why = () => {
   return (
     <div className="why">
-      <h1>Why CloudAge?</h1>
-      <p>
+      <h1 data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">Why CloudAge?</h1>
+      <p data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
         At CloudAge, we believe that data can make what is impossible today,
         possible tomorrow. <br />
         We empower people to transform complex data into clear and actionable
@@ -15,7 +19,7 @@ const Why = () => {
       </p>
 
       <div className="whyCardWrapper">
-        <WhyCard
+        <WhyCard  data-aos="zoom-in"
         url={"/edge"}
           title={"Edge"}
           description={
@@ -27,7 +31,7 @@ const Why = () => {
           title={"Data Warehouse"}
           description={
             "Bring together data from new and diverse sources with Cloudera Data Warehouse."
-          }
+           }  data-aos="flip-left"
         />
         <WhyCard
         url={"/contact"}
@@ -42,7 +46,7 @@ const Why = () => {
             "Build, deploy, ML and AI apps, anywhere, with CloudAge machine learning offerings"
           }
         />
-        <WhyCard
+        <WhyCard   data-aos="zoom-in"
           title={"Cloud"}
           url={"/cloud"}
           description={

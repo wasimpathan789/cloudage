@@ -11,44 +11,23 @@ const Deliver = () => {
         We deliver an enterprise data cloud for any data, anywhere, from the
         Edge to AIss.
       </h1>
-      {/* <div className="deliver-images-wrapper">
-        <div className="deliver-image">
-          <img src={Network} alt="" />
-          <span>Network</span>
-        </div>
-
-        <div className="deliver-image">
-          <img src={Security} alt="" />
-          <span>Security</span>
-        </div>
-
-        <div className="deliver-image">
-          <img src={Open} alt="" />
-          <span>Open</span>
-        </div>
-
-        <div className="deliver-image">
-          <img src={AnyCloud} alt="" />
-          <span>Any Cloud</span>
-        </div>
-      </div> */}
 
       <div className="deliver-cards">
         <div className="deliver-card">
-          <img src={Security} alt="" />
-          <span>Security</span>
+          <img src={Security} alt=""  data-aos="flip-left" data-aos-duration= "1500" />
+          <span  data-aos="fade-right"  data-aos-duration= "1500">Security</span>
           </div>
           <div className="deliver-card">
-          <img src={Open} alt="" />
-          <span>Open</span>
+          <img src={Open} alt="" data-aos="flip-up" data-aos-duration= "1500"  />
+          <span  data-aos="fade-up-right"   data-aos-duration= "1500">Open</span>
           </div>
           <div className="deliver-card">
-          <img src={AnyCloud} alt="" />
-          <span>Any Cloud</span>
+          <img src={AnyCloud} alt=""  data-aos="flip-down" data-aos-duration= "1500"  />
+          <span  data-aos="fade-up-left"   data-aos-duration= "1500">Any Cloud</span>
           </div>
           <div className="deliver-card">
-          <img src={Network} alt="" />
-          <span>Network</span>
+          <img src={Network} alt=""  data-aos="flip-right" data-aos-duration= "1500"  />
+          <span  data-aos="fade-left"  data-aos-duration= "1500">Network</span>
           </div>
         {/* <div className="deliver-card">2</div>
         <div className="deliver-card">3</div>

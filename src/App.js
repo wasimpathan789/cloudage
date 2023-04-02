@@ -25,6 +25,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import AmazonAwsPage from './pages/futuristicPages/amazonAwsPage/AmazonAwsPage';
 import ApacheSparkPage from './pages/futuristicPages/apacheSparkPage/ApacheSparkPage';
+import H2oPage from './pages/futuristicPages/h2oPage/H2oPage';
 
 AOS.init();
 function App() {
@@ -56,6 +57,8 @@ function App() {
         <Route path="/amazonaws" element = {<AmazonAwsPage/>}/>
         <Route path="/artificial" element = {<AiPage/>}/>
         <Route path="/apache" element = {<ApacheSparkPage/>}/>
+        <Route path="/h2o" element = {<H2oPage/>}/>
+
 
 
 
