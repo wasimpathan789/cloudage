@@ -1,0 +1,394 @@
+.data-banner {
+  padding: 30px 100px;
+  background-color: #118844;
+}
+.data-banner > h1 {
+  color: #ffffff;
+  font-family: "Alice", Sans-serif;
+  font-weight: 600;
+  line-height: 1.4em;
+  font-size: 2.6rem;
+}
+.data-banner > p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Verdana", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.data-wrapper {
+  padding: 80px 100px;
+}
+.data-did-u > h1 {
+  color: #000000;
+  font-family: Verdana, Sans-serif;
+  font-weight: 600;
+  font-size: 1.65;
+}
+.data-did-u > p {
+  /* font-family: Verdana, Sans-serif; */
+
+  font-size: 20px;
+  font-weight: lighter;
+  /* font-weight: 300; */
+}
+/* data-challanges  */
+.data-challanges > h1 {
+  color: #54595f;
+  font-family: verdana, Sans-serif;
+  font-weight: 600;
+  font-size: 1.65rem;
+  text-align: center;
+}
+.data-challanges > p {
+  color: #339966;
+  font-weight: 400;
+  line-height: 34px;
+  /* color: #66aa83; */
+  font-size: 20px;
+  font-style: normal;
+  text-transform: none;
+  text-align: center;
+  font-family: "Akzidenz Grotesk BQ Light", Helvetica, Arial !important;
+}
+.data-challenge-cards,
+.data-mongodb-cards,
+.data-mongodb-intelligent-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.data-challenge-card > h1,
+.data-mongodb-card > h1,
+.data-mongodb-intelligent-card > h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.data-challenge-card > p,
+.data-mongodb-card > p,
+.data-mongodb-intelligent-card > p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* data-solution */
+.data-solution {
+  padding: 50px 80px;
+}
+.data-solution > h1 {
+  font-size: 2.67;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.data-solution-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.data-solution-top > h1 {
+  color: #3a3a3a;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  text-align: center;
+  width: 800px;
+  margin: 40px 0px 0px 0px;
+  width: 100%;
+}
+.data-solution-top-div {
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+}
+.data-solution-top-div > p {
+  margin-bottom: 1.6em;
+  color: #7a7a7a;
+  font-family: roboto;
+}
+.data-solution-bottom > img {
+  width: 100%;
+  margin-top: 80px;
+}
+/* data-how */
+.data-how {
+}
+.data-how > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(17, 97, 73);
+  font-family: "Akzidenz Grotesk BQ Light", Helvetica, Arial;
+  text-align: center;
+}
+.data-how > p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: #66aa83;
+  line-height: 34px;
+  overflow-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  zoom: 1;
+  text-align: center;
+  font-family: "Akzidenz Grotesk BQ Light", Helvetica, Arial !important;
+}
+.data-people > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(17, 97, 73);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+/* data-layer */
+.data-layer > h1 {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0px;
+  outline: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+.data-layer > h2 {
+  text-align: left;
+  color: #000000;
+  font-family: Verdana, Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+.data-layer-image > img,
+.data-mongodb-enables-image > img {
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.data-layer > p {
+  text-align: center;
+  font-family: Roboto, Sans-serift;
+  color: #000000;
+  margin-top: 30px;
+}
+.data-technology > h1 {
+  color: #54595f;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 600;
+  font-size: 1.65rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.data-technology > h2 {
+  color: #54595f;
+  font-family: "Verdana", Sans-serif;
+  font-weight: 600;
+  font-size: 1.65rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+.data-technology > p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #42494f;
+  font-family: "Akzidenz Grotesk BQ Light", Helvetica, Arial;
+  text-align: center;
+  margin-top: 20px;
+}
+/* data-mongodb */
+.data-mongodb > h1 {
+  font-size: 24px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+  text-align: center;
+  margin: 80px 0 80px 0;
+}
+.data-mongodb > h2 {
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.data-mongodb-intelligent-card {
+  text-align: center;
+}
+/* data-mongodb-enables */
+.data-mongodb-enables {
+  padding: 0px 100px;
+}
+.data-mongodb-enables > h1 {
+  text-align: center;
+  font-size: 1.67rem;
+  margin: 80px 0px 10px 0px;
+}
+.data-mongodb-enables > p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 30px 0 30px 0;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-weight: lighter; */
+  font-weight: 300;
+}
+.data-mongodb-usecases > h1 {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(17, 97, 73);
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  text-align: center;
+  margin: 80px 0 30px 0;
+}
+.data-mongodb-usecases-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.data-mongodb-usecases-card > h1 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "Akzidenz Grotesk BQ Light", Helvetica, Arial;
+}
+.data-mongodb-usecases-card > p {
+  color: #212529;
+  font-family: Verdana, sans-serif;
+  text-align: justify;
+  font-family: "Roboto";
+  font-size: 1rem;
+  word-spacing: 3px;
+}
+
+.data-mongodb-slider {
+
+  margin-top: 90px;
+}
+.data-slider-container {
+  height: 80vh;
+}
+.data-slide-images {
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+}
+
+.data-prev,
+.data-next {
+  color: transparent;
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1rem;
+  margin-top: -3rem;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.slider-container:hover .data-prev,.slider-container:hover .data-next {
+  color: black
+}
+
+.slider-container:hover .data-prev:hover,
+.slider-container:hover .data-next:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s ease-in;
+}
+
+.data-next {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+@media screen and (max-width: 1080px) {
+  .data-banner,
+  .data-wrapper,
+  .data-solution,
+  .data-solution {
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .data-banner > h1 {
+  }
+  .data-challenge-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .data-solution-top-div {
+    flex-direction: column;
+  }
+  .data-solution-top-div > img {
+    width: 30%;
+    margin: auto;
+  }
+  .data-challenge-cards,
+  .data-mongodb-cards,
+  .data-mongodb-intelligent-cards,
+  .data-mongodb-usecases-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .data-how > p,
+  .data-mongodb-enables {
+    padding: 0;
+  }
+  .data-slider-container {
+    margin-top: -150px;
+
+}
+   
+}
+@media screen and (max-width: 570px) {
+  .data-slider-container {
+    margin-top: -250px;}
+
+}
+
+@media screen and (max-width: 480px) {
+  .data-banner > h1,
+  .data-did-u > h1,
+  .data-challanges > h1 {
+    font-size: 1.6rem;
+  }
+  .data-banner > p,
+  .data-did-u > p,
+  .data-challanges > p,
+  .data-layer > h2,
+  .data-layer > p {
+    font-size: 1.2rem;
+  }
+  .arrows {
+    background-color: red;
+  }
+  .data-prev,
+  .data-next {
+    top: 60%;
+    color: transparent;
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    /* top: 50%; */
+    width: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+  }
+  .data-slider-container {
+    margin-top: -250px;
+  }
+}

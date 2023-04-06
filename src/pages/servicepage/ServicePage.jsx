@@ -9,7 +9,7 @@ import img3 from '../../assets/etisalat.png'
 import img4 from '../../assets/parkar.png'
 import img5 from '../../assets/cognizant.png'
 import img6 from '../../assets/teradata.png'
-import img7 from '../../assets/office.jpg'
+import img7 from '../../assets/bg3.jpeg'
 
 
 const ServicePage = () => {

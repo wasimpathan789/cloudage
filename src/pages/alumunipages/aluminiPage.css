@@ -58,7 +58,27 @@ flex: 2;
     width: 100%;
     height: 100%;
 }
+.alumini-slider{
+    padding: 100px;
+}
+.alumini-slider>h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #54595F;
+    text-align: center;
+}
 
+.slides {
+    height: var(--heights);
+    width: var(--widths);
+    position: relative;
+  }
+  .slide-images {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+  }
 
 
 
@@ -66,7 +86,7 @@ flex: 2;
 
 
 @media screen  and (max-width:1080px){
-    .aluminipage{
+    .aluminipage, .alumini-slider{
         padding: 20px;
     }
     .alumini-card{
@@ -93,5 +113,16 @@ flex: 2;
         text-align: center;
         padding: 30px;
     }
+    .slidess{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+    .slide-images {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        object-fit: contain;
+      }
     
 }

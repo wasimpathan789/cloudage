@@ -71,21 +71,30 @@ const HdInsightPage = () => {
       <Navbar />
       <div className="hd-insight-banner">
         <div className="hd-insight-banner-left">
-          <h1>HDInsight</h1>
-          <p>
+          <h1 data-aos="fade-right" data-aos-duration="2000">
+            HDInsight
+          </h1>
+          <p data-aos="fade-left" data-aos-duration="2000">
             Easy, cost-effective, enterprise-grade service for open source
             analytics.
           </p>
         </div>
         <div className="hd-insight-banner-right">
-          <img src={capture9} alt="" />
+          <img
+            src={capture9}
+            alt=""
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          />
         </div>
       </div>
       <div className="explore-hd">
         <h1>Explore HDInsight:</h1>
       </div>
       <div className="why-hd-insight">
-        <h1>Why HDInsight?</h1>
+        <h1 data-aos="fade-up" data-aos-duration="2000">
+          Why HDInsight?
+        </h1>
         <div className="why-hd-insight-cards">
           <HdInsightCard
             image={easy1}
@@ -121,10 +130,30 @@ const HdInsightPage = () => {
       <div className="hd-related-products">
         <h1>Related products and services</h1>
         <div className="hd-related-products-cards">
-          <img src={capture5} alt="" />
-          <img src={capture6} alt="" />
-          <img src={capture7} alt="" />
-          <img src={capture8} alt="" />
+          <img
+            src={capture5}
+            alt=""
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          />
+          <img
+            src={capture6}
+            alt=""
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          />
+          <img
+            src={capture7}
+            alt=""
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          />
+          <img
+            src={capture8}
+            alt=""
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          />
         </div>
       </div>
 
@@ -133,28 +162,71 @@ const HdInsightPage = () => {
 
         <div className="apache-logo-cards">
           <div className="apache-logo-card">
-            <img src={hadoop} alt="" />
-            <h1>Apache hadoop </h1>
+            <img
+              src={hadoop}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Apache hadoop{" "}
+            </h1>
           </div>
           <div className="apache-logo-card">
-            <img src={kafka} alt="" />
-            <h1>Apache Kafka</h1>
+            <img
+              src={kafka}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              {" "}
+              Apache Kafka
+            </h1>
           </div>
           <div className="apache-logo-card">
-            <img src={hbase} alt="" />
-            <h1>Apache HBase</h1>
+            <img
+              src={hbase}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Apache HBase
+            </h1>
           </div>
           <div className="apache-logo-card">
-            <img src={hive} alt="" />
-            <h1>Apache Hive LLAP</h1>
+            <img
+              src={hive}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Apache Hive LLAP
+            </h1>
           </div>
           <div className="apache-logo-card">
-            <img src={spark} alt="" />
-            <h1>Apache Spark </h1>
+            <img
+              src={spark}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Apache Spark{" "}
+            </h1>
           </div>
           <div className="apache-logo-card">
-            <img src={storm} alt="" />
-            <h1>Apache Storm </h1>
+            <img
+              src={storm}
+              alt=""
+              data-aos="flip-up"
+              data-aos-duration="2000"
+            />
+            <h1 data-aos="flip-up" data-aos-duration="2000">
+              Apache Storm{" "}
+            </h1>
           </div>
         </div>
         <div className="open-source-cards">
@@ -210,11 +282,20 @@ const HdInsightPage = () => {
           {whatCan.map((what, id) => (
             <div key={what.id} className="what-can-wrapper">
               <div className="what-can-wrapper-left">
-                <h1>{what.title}</h1>
-                <p>{what.description}</p>
+                <h1 data-aos="fade-up-right" data-aos-duration="2000">
+                  {what.title}
+                </h1>
+                <p data-aos="fade-up-left" data-aos-duration="2000">
+                  {what.description}
+                </p>
               </div>
               <div className="what-can-wrapper-right">
-                <img src={what.img} alt="" />
+                <img
+                  src={what.img}
+                  alt=""
+                  data-aos="fade-up-right"
+                  data-aos-duration="2000"
+                />
               </div>
             </div>
           ))}
@@ -223,8 +304,10 @@ const HdInsightPage = () => {
           <h1>Use Cases</h1>
           <div className="hd-use-cases-cards">
             <div className="hd-use-cases-card">
-              <h1>Customer insights</h1>
-              <p>
+              <h1 data-aos="fade-up" data-aos-duration="2000">
+                Customer insights
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2000">
                 Help employees make data-driven decisions by building an
                 end-to-end open-source analytics platform. Easily process
                 massive amounts of data from different sources. <br /> Learn how
@@ -232,16 +315,20 @@ const HdInsightPage = () => {
               </p>
             </div>
             <div className="hd-use-cases-card">
-              <h1>Personalized recommendations</h1>
-              <p>
+              <h1 data-aos="fade-up" data-aos-duration="2000">
+                Personalized recommendations
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2000">
                 Engage your customers in new ways by building personalized
                 recommendation engines. <br /> Learn how Milliman uses HDInsight
                 for risk assessment.
               </p>
             </div>
             <div className="hd-use-cases-card">
-              <h1>Predictive maintenance</h1>
-              <p>
+              <h1 data-aos="fade-up" data-aos-duration="2000">
+                Predictive maintenance
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2000">
                 Predict and prevent failures and keep vital equipment running.
                 Ingest and process data in real-time to optimize operations.{" "}
                 <br />
@@ -250,8 +337,10 @@ const HdInsightPage = () => {
               </p>
             </div>
             <div className="hd-use-cases-card">
-              <h1>Risk assessment</h1>
-              <p>
+              <h1 data-aos="fade-up" data-aos-duration="2000">
+                Risk assessment
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="2000">
                 Build better models by transforming and analyzing your critical
                 data and help keep your data secure with enterprise-grade
                 capabilities.

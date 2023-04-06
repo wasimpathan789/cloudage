@@ -19,29 +19,32 @@ const BiqQueryPage = () => {
     <div>
       <Navbar />
       <div className="bg-recomondation">
-        <h1>
+        <h1  data-aos="fade-right" data-aos-duration="2000">
           BigQuery can provide a 3-year TCO that is 26-34% lower than cloud
           enterprise data warehouse alternatives.
         </h1>
       </div>
       <div className="hd-insight-banner bg-insight-banner">
         <div className="hd-insight-banner-left bg-insight-banner-left ">
-          <h1>Big-Query</h1>
-          <p>
+          <h1  data-aos="fade-left" data-aos-duration="2000">Big-Query</h1>
+          <p data-aos="fade-right" data-aos-duration="2000">
             BigQuery is a fully-managed, serverless Data Warehouse that enables
             scalable analysis over petabytes of data.
           </p>
         </div>
         <div className="hd-insight-banner-right bg-insight-banner-right">
-          <img src={google} alt="" />
+          <img src={google} alt=""   data-aos="zoom-in"
+            data-aos-duration="2000"/>
         </div>
       </div>
       <div className="bg-wrapper">
         <div className="bg-big-query">
-          <h1>Big-Query</h1>
+          <h1  data-aos="fade-up-left"
+            data-aos-duration="2000">Big-Query</h1>
           <div className="bg-big-query-container">
             <div className="bg-big-query-container-left">
-              <p>
+              <p  data-aos="fade-up-left"
+            data-aos-duration="2000">
                 BigQuery is a serverless, highly-scalable, and cost-effective
                 cloud data warehouse with an in-memory BI Engine and Machine
                 Learning built-in. <br /> <br />
@@ -60,7 +63,8 @@ const BiqQueryPage = () => {
               </p>
             </div>
             <div className="bg-big-query-container-right">
-              <video
+              <video  data-aos="fade-up-left"
+            data-aos-duration="2000"
                 src="https://6v097b.n3cdn1.secureserver.net/wp-content/uploads/2022/09/bigquery-1.mp4"
                 controls
               ></video>
@@ -68,14 +72,18 @@ const BiqQueryPage = () => {
           </div>
         </div>
         <div className="bg-focus">
-          <h1>Focus on the analytics, not your infrastructure</h1>
+          <h1 data-aos="fade-up-right"
+            data-aos-duration="2000">Focus on the analytics, not your infrastructure</h1>
           <div className="bg-focus-wrapper">
-            <div className="bg-focus-left">
-              <img src={getup} alt="" />
+            <div className="bg-focus-right">
+              <img src={getup} alt="" data-aos="fade-up-left"
+            data-aos-duration="2000" />
             </div>
             <div className="bg-focus-right">
-              <h2>Get up and running fast</h2>
-              <p>
+              <h2  data-aos="fade-up"
+     data-aos-duration="2000">Get up and running fast</h2>
+              <p data-aos="fade-up"
+     data-aos-duration="2000">
                 Set up your data warehouse in seconds and start to query data
                 immediately. BigQuery runs blazing-fast SQL queries on gigabytes
                 to petabytes of data and makes it easy to join public or
@@ -96,8 +104,10 @@ const BiqQueryPage = () => {
 
         <div className="bg-scale-seamly">
           <div className="bg-scale-seamly-left">
-            <h1>Scale seamlessly</h1>
-            <p>
+            <h1 data-aos="fade-up"
+     data-aos-duration="2000">Scale seamlessly</h1>
+            <p data-aos="fade-up"
+     data-aos-duration="2000">
               BigQuery separates storage and computes to enable elastic scaling
               that streamlines capacity planning for data warehouses. BigQuery
               meets the challenges of real-time analytics by leveraging Google’s
@@ -110,17 +120,21 @@ const BiqQueryPage = () => {
             </p>
           </div>
           <div className="bg-scale-seamly-right">
-            <img src={scale} alt="" />
+            <img src={scale} alt="" data-aos="fade-up"
+     data-aos-duration="2000" />
           </div>
         </div>
 
         <div className="bg-accelerate">
-          <h1>Accelerate your insights with powerful analysis</h1>
+          <h1 data-aos="fade-up"
+     data-aos-duration="2000">Accelerate your insights with powerful analysis</h1>
           <div className="bg-accelerate-wrapper">
             <div className="bg-accelerate-wrapper-left">
-              <img src={accelerate} alt="" />
+              <img src={accelerate} alt="" data-aos="fade-up"
+     data-aos-duration="2000" />
             </div>
-            <div className="bg-accelerate-wrapper-right">
+            <div className="bg-accelerate-wrapper-right" data-aos="fade-up"
+     data-aos-duration="2000">
               Gain a full view of all your data with seamless queries of data
               stored in BigQuery’s managed columnar storage, Cloud Storage,
               Cloud Bigtable, Sheets, and Drive. BigQuery integrates with
@@ -138,8 +152,10 @@ const BiqQueryPage = () => {
         </div>
         <div className="bg-scale-seamly">
           <div className="bg-scale-seamly-left">
-            <h1>Protect your business data and investments</h1>
-            <p>
+            <h1 data-aos="fade-up"
+     data-aos-duration="2000">Protect your business data and investments</h1>
+            <p data-aos="fade-up"
+     data-aos-duration="2000">
               BigQuery makes it easy to maintain a strong security and
               governance foundation. Eliminate data operation burdens with
               automatic data replication for disaster recovery and high
@@ -149,17 +165,21 @@ const BiqQueryPage = () => {
             </p>
           </div>
           <div className="bg-scale-seamly-right">
-            <img src={protect} alt="" />
+            <img src={protect} alt="" data-aos="fade-up"
+     data-aos-duration="2000"/>
           </div>
         </div>
 
         <div className="bg-control-cost">
           <div className="bg-control-cost-left">
-            <img src={control} alt="" />
+            <img src={control} alt="" data-aos="fade-up"
+     data-aos-duration="2000"/>
           </div>
           <div className="bg-control-cost-right">
-            <h1>Control costs and reduce TCO</h1>
-            <p>
+            <h1 data-aos="fade-up"
+     data-aos-duration="2000">Control costs and reduce TCO</h1>
+            <p data-aos="fade-up"
+     data-aos-duration="2000">
               Only pay for the storage and compute resources you use, thanks to
               BigQuery’s serverless architecture. BigQuery’s separation of
               storage and computing makes it easy to scale independently and

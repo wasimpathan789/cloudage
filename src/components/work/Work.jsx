@@ -13,14 +13,21 @@ const Work = ({title, image1,image2,image3,image4,image5,image6}) => {
   return (
     <>
        <div className="work">
-        <h1>{title}</h1>
+        <h1 data-aos="zoom-in"
+      data-aos-duration="2000">{title}</h1>
         <div className="work-clients">
-            <img src={image1}alt=""  style={{fill:"#54595f"}} />
-            <img src={image2}alt="" />
-            <img src={image3}alt="" />
-            <img src={image4}alt="" />
-            <img src={image5}alt="" />
-            <img src={image6}alt="" />
+            <img src={image1}alt=""  style={{fill:"#54595f"}}  data-aos="fade-right"
+      data-aos-duration="2000" />
+            <img src={image2}alt="" data-aos="fade-left"
+      data-aos-duration="2000" />
+            <img src={image3}alt=""  data-aos="fade-right"
+      data-aos-duration="2000"/>
+            <img src={image4}alt=""data-aos="fade-left"
+      data-aos-duration="2000" />
+            <img src={image5}alt="" data-aos="fade-right"
+      data-aos-duration="2000" />
+            <img src={image6}alt="" data-aos="fade-left"
+      data-aos-duration="2000" />
       
 
         </div>

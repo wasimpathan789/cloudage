@@ -274,28 +274,17 @@
 }
 @media screen and (max-width:580px) {
     .footer{
-        padding: 60px 20px;
-        /* padding: 5px; */
+        padding: 0px 15px 20px 15px ;
     }
     .footer-top {
         display: flex;
         flex-direction: column;
         gap: 30px;
-    }
-    
+    }   
 .footer-top-center>h1,
 .footer-top-right>h1 {
     font-size: 1.4rem;
     line-height: 1.2em;
     font-weight: 600;
-
-}
-/* .footer-top {
-   padding: 0px;
-} */
-/* .footer-top-left {
-    padding: 0;
-
-} */
-   
+} 
 }

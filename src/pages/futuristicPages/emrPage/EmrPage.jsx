@@ -14,7 +14,6 @@ import clairvoyent from "../../../assets/emr/clairvoyent.png";
 import foral from "../../../assets/emr/foral.png";
 import bg from "../../../assets/emr/bg.jpg";
 
-
 const EmrPage = () => {
   const benefitsCards = [
     {
@@ -96,26 +95,59 @@ const EmrPage = () => {
   return (
     <div>
       <Navbar />
-      <FuturisticCard image={bg} title={"Amazon EMR"} description={"Easily Run and Scale Apache Spark, Hadoop, HBase, Presto, Hive and other Big Data Frameworks. ."} />
+      <FuturisticCard
+        image={bg}
+        title={"Amazon EMR"}
+        description={
+          "Easily Run and Scale Apache Spark, Hadoop, HBase, Presto, Hive and other Big Data Frameworks. ."
+        }
+      />
 
       <div className="emr-page">
         <div className="emr-get-started">
           <h1>Get started with AWS</h1>
           <div className="get-started-card">
             <div className="get-started-logo">
-              <img src={round1} alt="" />
-              <h1>Sign up for an AWS account</h1>
-              <p>Instantly get access to the AWS Free Tier.</p>
+              <img
+                src={round1}
+                alt=""
+                data-aos="flip-up"
+                data-aos-duration="2000"
+              />
+              <h1 data-aos="flip-up" data-aos-duration="1500">
+                Sign up for an AWS account
+              </h1>
+              <p data-aos="flip-up" data-aos-duration="1500">
+                Instantly get access to the AWS Free Tier.
+              </p>
             </div>
             <div className="get-started-logo">
-              <img src={round2} alt="" />
-              <h1>Sign up for an AWS account</h1>
-              <p>Instantly get access to the AWS Free Tier.</p>
+              <img
+                src={round2}
+                alt=""
+                data-aos="flip-down"
+                data-aos-duration="2000"
+              />
+              <h1 data-aos="flip-down" data-aos-duration="1500">
+                Sign up for an AWS account
+              </h1>
+              <p data-aos="flip-down" data-aos-duration="1500">
+                Instantly get access to the AWS Free Tier.
+              </p>
             </div>
             <div className="get-started-logo">
-              <img src={round3} alt="" />
-              <h1>Sign up for an AWS account</h1>
-              <p>Instantly get access to the AWS Free Tier.</p>
+              <img
+                src={round3}
+                alt=""
+                data-aos="flip-down"
+                data-aos-duration="2000"
+              />
+              <h1 data-aos="flip-down" data-aos-duration="2000">
+                Sign up for an AWS account
+              </h1>
+              <p data-aos="flip-down" data-aos-duration="2000">
+                Instantly get access to the AWS Free Tier.
+              </p>
             </div>
           </div>
         </div>
@@ -126,8 +158,20 @@ const EmrPage = () => {
           <div className=" emr-cases-cards">
             {benefitsCards.map((benefits) => (
               <div className="emr-benefits-card" key={benefits.id}>
-                <h1>{benefits.title}</h1>
-                <p>{benefits.description}</p>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="2000"
+                >
+                  {benefits.title}
+                </h1>
+                <p
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="2000"
+                >
+                  {benefits.description}
+                </p>
               </div>
             ))}
           </div>
@@ -136,17 +180,31 @@ const EmrPage = () => {
           <div className="emr-cases-cards">
             {useCases.map((cases) => (
               <div className="emr-benefits-card" key={cases.id}>
-                <h1>{cases.title}</h1>
-                <p>{cases.description}</p>
+                <h1
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="2000"
+                >
+                  {cases.title}
+                </h1>
+                <p
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="2000"
+                >
+                  {cases.description}
+                </p>
               </div>
             ))}
           </div>
         </div>
         <div className="amazon-emr">
-          <h1>Amazon Elastic MapReduce(EMR)</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="1500">
+            Amazon Elastic MapReduce(EMR)
+          </h1>
           <div className="amazon-emr-wrapper">
             <div className="amazon-emr-left">
-              <p>
+              <p data-aos="zoom-in-up">
                 {" "}
                 Amazon EMR is the industry-leading cloud-native Big Data
                 platform, allowing teams to process vast amounts of data
@@ -165,6 +223,8 @@ const EmrPage = () => {
             </div>
             <div className="amazon-emr-right">
               <video
+                data-aos="zoom-out"
+                data-aos-duration="1500"
                 src="https://6v097b.n3cdn1.secureserver.net/wp-content/uploads/2022/09/emr.mp4"
                 controls
               ></video>
@@ -172,14 +232,47 @@ const EmrPage = () => {
           </div>
         </div>
         <div className="emr-work">
-          <h1>We Train Employees That Work Here</h1>
+          <h1 data-aos="fade-up" data-aos-duration="1500">
+            We Train Employees That Work Here
+          </h1>
           <div className="work-clients">
-            <img src={cap} alt="" style={{ fill: "#54595f" }} />
-            <img src={figmd} alt="" />
-            <img src={hcl} alt="" />
-            <img src={clairvoyent} alt="" />
-            <img src={harman} alt="" />
-            <img src={foral} alt="" />
+            <img
+              src={cap}
+              alt=""
+              style={{ fill: "#54595f" }}
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            />
+            <img
+              src={figmd}
+              alt=""
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            />
+            <img
+              src={hcl}
+              alt=""
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            />
+            <img
+              src={clairvoyent}
+              alt=""
+              data-aos="fade-up-left"
+              data-aos-duration="1500"
+            />
+            <img
+              src={harman}
+              alt=""
+              data-aos="fade-down-right"
+              data-aos-duration="1500"
+            />
+            <img
+              src={foral}
+              alt=""
+              data-aos="fade-down-left"
+              data-aos-duration="1500"
+            />
           </div>
         </div>
       </div>

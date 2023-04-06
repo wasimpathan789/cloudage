@@ -29,7 +29,7 @@ const AzureMicrosoftPage = () => {
           <p  data-aos="fade-right"> Empower your inner inventor to turn ideas into outcomes.</p>
         </div>
         <div className="hd-insight-banner-right">
-          <img src={capture5} alt="" />
+          <img src={capture5} alt="" data-aos="zoom-in" data-aos-duration="2000" />
         </div>
       </div>
 
@@ -98,9 +98,9 @@ const AzureMicrosoftPage = () => {
         </div>
 
         <div className="microsoft-regions">
-          <h1>54 regions, more than any other cloud provider</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="2000" >54 regions, more than any other cloud provider</h1>
           <div className="microsoft-regions-image">
-            <img src={map} alt="" />
+            <img src={map} alt="" data-aos="zoom-in" data-aos-duration="2000" />
           </div>
         </div>
         <div className="ready-to-go">
@@ -214,7 +214,7 @@ const AzureMicrosoftPage = () => {
       </div>
 
       <div className="microsoft-the-cloud">
-        <h1>The cloud you can trust, with the numbers to prove it</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="2000">The cloud you can trust, with the numbers to prove it</h1>
         <div className="microsoft-the-cloud-wrapper">
           <img src={one} alt=""   data-aos="fade-up"
      data-aos-anchor-placement="center-center"/>

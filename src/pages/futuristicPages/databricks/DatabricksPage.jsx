@@ -22,6 +22,21 @@ const DatabricksPage = () => {
           description={"Helping data teams solve the world’stoughest problems"}
         />
         <div className="databricks-wrapper">
+          <div className="databricks-watch">
+            <div className="databricks-watch-left">
+              <iframe src="https://youtu.be/7t4lhzTWM5I" frameborder="0"></iframe>
+              <div className="image">
+
+              </div>
+            </div>
+            <div className="databricks-watch-right">
+              <h1>Watch Ali Ghodsi's Keynote</h1>
+              <p>
+                Ali talks about the opportunity data presents to tackle the
+                world’s toughest problems.
+              </p>
+            </div>
+          </div>
           <div className="unified-data">
             <div className="unified-data-top">
               <h1>Unified Data Analytics Platform</h1>
@@ -35,22 +50,29 @@ const DatabricksPage = () => {
             </div>
 
             <div className="unified-data-bottom">
-              <p>Increases the reliability, quality, and performance of data lakes</p>
-              <p>Enables collaborative data science and machine learning on all your data</p>
-              <p>Delivers actionable insights and predictions to the business</p>
+              <p>
+                Increases the reliability, quality, and performance of data
+                lakes
+              </p>
+              <p>
+                Enables collaborative data science and machine learning on all
+                your data
+              </p>
+              <p>
+                Delivers actionable insights and predictions to the business
+              </p>
             </div>
           </div>
-         
         </div>
         <Work
-            image1={Clay}
-            image2={Capgemenu}
-            image3={HCL}
-            image4={Inndata}
-            image5={Inforay}
-            image6={Cybage}
-            title={"We Train Employees That Work Here"}
-          />
+          image1={Clay}
+          image2={Capgemenu}
+          image3={HCL}
+          image4={Inndata}
+          image5={Inforay}
+          image6={Cybage}
+          title={"We Train Employees That Work Here"}
+        />
       </div>
 
       <Footer />

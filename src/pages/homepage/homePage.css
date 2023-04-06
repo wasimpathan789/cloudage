@@ -4,3 +4,14 @@
     /* overflow-y: hidden; */
     /* width: 80%; */
 }
+.home-slider{
+    width: auto;
+    height: 50vh;
+    padding: 100px;
+}
+@media screen and (max-width:1080px) {
+    .home-slider{
+        padding: 20px;
+    }
+    
+}

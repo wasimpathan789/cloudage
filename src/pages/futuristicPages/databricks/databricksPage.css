@@ -7,6 +7,16 @@
 .databricks-wrapper {
     padding: 30px 100px;
 }
+.databricks-watch{
+    display: flex;
+}
+.databricks-watch-left,
+.databricks-watch-right{
+    flex: 1;
+}
+.databricks-watch-right>h1{
+    font-size: 2rem;
+}
 .unified-data{
     display: flex;
     flex-direction: column;
@@ -76,6 +86,9 @@ text-align: center;
     }
     .unified-data-top>h1 {
         font-size: 2.3rem;
+    }
+    .databricks-watch{
+        flex-direction: column;
     }
     
 }

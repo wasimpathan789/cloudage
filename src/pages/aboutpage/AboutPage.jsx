@@ -19,7 +19,7 @@ import CloudQueueIcon from "@mui/icons-material/CloudQueue";
 import SecurityIcon from "@mui/icons-material/Security";
 import DescriptionIcon from "@mui/icons-material/Description";
 import HeroCard from "../../components/heroCard/HeroCard";
-import office from '../../assets/a.jpg'
+import office from '../../assets/bg2.jpg'
 // import office from '../../assets/office.jpg'
 
 

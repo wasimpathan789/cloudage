@@ -25,14 +25,14 @@ const GcpMlPage = () => {
         description={
           "Machine Learning is functionality that helps software perform a task without explicit programming or rules."
         }
-        image={bg}
+        image={bg} data-aos="fade-right"
       />
 
       <div className="gcp-ml-wrapper">
         <div className="gcp-take-your">
           <div className="gcp-take-your-left">
-            <h1>Take your Machine Learning projects to production</h1>
-            <p>
+            <h1 data-aos="fade-right" data-aos-duration="1500">Take your Machine Learning projects to production</h1>
+            <p data-aos="fade-left" data-aos-duration="1500">
               AI Platform makes it easy for machine learning developers, data
               scientists, and data engineers to take their ML projects from
               ideation to production and deployment, quickly and
@@ -47,13 +47,13 @@ const GcpMlPage = () => {
             </p>
           </div>
           <div className="gcp-take-your-right">
-            <img src={banncer} alt="" />
+            <img src={banncer} alt="" data-aos="fade-right" data-aos-duration="1500" />
           </div>
         </div>
         <div className="gcp-cloude-img">
-          <img src={plateform} alt="" />
-          <img src={airoplane} alt="" />
-          <p>
+          <img src={plateform} alt="" data-aos="fade-left" data-aos-duration="1500" />
+          <img src={airoplane} alt=""  data-aos="fade-right" data-aos-duration="1500"/>
+          <p data-aos="fade-left" data-aos-duration="1500">
             “Google Cloud Machine Learning Engine enabled us to improve the
             accuracy and speed at which we correct visual anomalies in the
             images captured from our satellites. It solved a problem that has
@@ -63,19 +63,24 @@ const GcpMlPage = () => {
           </p>
         </div>
         <div className="gcp-mathias">
-          <h1>Mathias Ortner</h1>
-          <p>Data Analysis Image Processing Lead, Airbus Defence & Space.</p>
+          <h1 data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">Mathias Ortner</h1>
+          <p  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">Data Analysis Image Processing Lead, Airbus Defence & Space.</p>
         </div>
         <div className="machine-development">
-          <img src={activity} alt="" />
+          <img src={activity} alt=""  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500"/>
         </div>
         <div className="gcp-we-empower">
           <div className="gcp-we-empower-left">
-            <h1>
+            <h1  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">
               We empower people to transform complex data, anywhere it resides,
               into clear and actionable insights
             </h1>
-            <p>
+            <p  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">
               Rather than be an AWS clone, GCP has become a unique services
               outfit that providing massive-scale services, including artificial
               intelligence and machine learning. GCP’s advantages today include
@@ -88,20 +93,25 @@ const GcpMlPage = () => {
             </p>
           </div>
           <div className="gcp-we-empower-right">
-            <h1>
+            <h1  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">
               We deliver an enterprise data cloud for any data, anywhere, from
               the Edge to AI
             </h1>
-            <img src={google} alt="" />
+            <img src={google} alt="" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="2000" />
           </div>
         </div>
         <div className="gcp-more-ai">
           <div className="gcp-more-ai-top">
-            <h1>More AI resources</h1>
-            <p>Get started with machine learning on Google Cloud.</p>
+            <h1  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">More AI resources</h1>
+            <p  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500">Get started with machine learning on Google Cloud.</p>
           </div>
           <div className="gcp-more-ai-top">
-            <img src={tensor} alt="" />
+            <img src={tensor} alt=""  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  data-aos-duration="1500" />
           </div>
         </div>
       </div>
